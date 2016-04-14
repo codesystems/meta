@@ -1,0 +1,441 @@
+[
+  {
+    "id": "free",
+    "description": "system",
+    "drm": {
+      "minLevel": 0
+    },
+    "apps": [
+      { "id": "mozilla/firefox-base" },
+      { "id": "microsoft/vcredist" },
+      { "id": "spoonbrew/clean" },
+      { "id": "spoonbrew/base" }
+    ],
+    "channelIds":[],
+    "hidden": true
+  },
+  {
+    "id": "free-web",
+    "name": "Free Web",
+    "iconSrc": "/homepage/icons/channels/browsers.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Free Web Channel",
+    "drm": {
+      "minLevel": 0
+    },
+    "apps": [
+      { "id": "mozilla/firefox" },
+      { "id": "google/chrome" }
+    ]
+  },
+  {
+    "id": "free-productivity",
+    "name": "Free Productivity",
+    "iconSrc": "/homepage/icons/channels/productivity.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0"
+    },
+    "description": "The Free Productivity Channel",
+    "drm": {
+      "minLevel": 0
+    },
+    "appCategories": ["viewers", "readers"],
+    "apps": [
+      { "id": "libreoffice/base" },
+      { "id": "libreoffice/calc" },
+      { "id": "libreoffice/draw" },
+      { "id": "libreoffice/impress" },
+      { "id": "libreoffice/math" },
+      { "id": "libreoffice/writer" },
+      { "id": "npp/notepadplusplus" },
+      { "id": "paintdotnet/paintdotnet" },
+      { "id": "videolan/vlc" }
+    ]
+  },
+  {
+    "id": "free-tools",
+    "name": "Free Tools",
+    "iconSrc": "/homepage/icons/channels/tools.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Free Tools Channel",
+    "drm": {
+      "minLevel": 0
+    },
+    "apps":[
+      { "id": "7-zip/7-zip" },
+      { "id": "7-zip/7-zip-console" },
+      { "id": "rarlab/winrar" }
+    ]
+  },
+  {
+    "id": "home-chat",
+    "name": "Home Chat",
+    "iconSrc": "/homepage/icons/channels/chat.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Home Chat Channel",
+    "drm": {
+      "minLevel": 259
+    },
+    "apps":[
+      { "id": "kakao/kakaotalk" },
+      { "id": "instantbird/instantbird" },
+      { "id": "line/line" },
+      { "id": "mirandaim/mirandaim" },
+      { "id": "mirc/mirc" },
+      { "id": "mozilla/thunderbird" },
+      { "id": "pidgin/pidgin" },
+      { "id": "microsoft/skype" },
+      { "id": "slack/slack" },
+      { "id": "viber/viber" }
+    ]
+  },
+  {
+    "id": "home-productivity",
+    "name": "Home Productivity",
+    "iconSrc": "/homepage/icons/channels/productivity.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Home Productivity Channel",
+    "drm": {
+      "minLevel": 259
+    },
+    "apps":[
+      { "id": "adobe/adobereader" },
+      { "id": "audacity/audacity" },
+      { "id": "blender/blender" },
+      { "id": "flstudio/flstudio" },
+      { "id": "foobar2000/foobar2000" },
+      { "id": "freedownloadmanager/freedownloadmanager" },
+      { "id": "gimp/gimp" },
+      { "id": "greenshot/greenshot" },
+      { "id": "gotomeeting/gotomeeting" },
+      { "id": "gyazo/gyazo" },
+      { "id": "inkscape/inkscape" },
+      { "id": "irfanview/irfanview" },
+      { "id": "lmms/lmms" },
+      { "id": "microsoft/rdcman" },
+      { "id": "musescore/musescore" },
+      { "id": "photoscape/photoscape" },
+      { "id": "realvnc/vnc" },
+      { "id": "realvnc/vncplayer" },
+      { "id": "sketchup/sketchup" },
+      { "id": "teamviewer/teamviewer" },
+      { "id": "turbobrowsers/webexmeetings" },
+      { "id": "webex/webex-player" }
+    ],
+    "channelIds":["free-productivity"]
+  },
+  {
+    "id": "home-tools",
+    "name": "Home Tools",
+    "iconSrc": "/homepage/icons/channels/tools.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Home Tools Channel",
+    "drm": {
+      "minLevel": 259
+    },
+    "appCategories":["tools"],
+    "apps":[
+      { "id": "bittorrent/utorrent" },
+      { "id": "dropbox/dropbox" },
+      { "id": "filezilla/filezilla" },
+      { "id": "qbittorrent/qbittorrent" },
+      { "id": "vuze/vuze" },
+      { "id": "ytdvideodownloader/ytdvideodownloader" }
+    ],
+    "channelIds":["free-tools"]
+  },
+  {
+    "id": "home-web",
+    "name": "Home Web",
+    "iconSrc": "/homepage/icons/channels/browsers.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Home Web Channel",
+    "drm": {
+      "minLevel": 259
+    },
+    "apps":[
+      { "id": "apple/safari" },
+      { "id": "bluegriffon/bluegriffon" },
+      { "id": "microsoft/dotnet" },
+      { "id": "microsoft/silverlight" },
+      { "id": "mozilla/firefox-mobile" },
+      { "id": "opera/opera" },
+      { "id": "oracle/jre" },
+      { "id": "tor/tor-browser" },
+      { "id": "turbobrowsers/facebook" },
+      { "id": "turbobrowsers/turbo-firefox" },
+      { "id": "turbobrowsers/twitter" }
+    ],
+    "channelIds":["free-web"]
+  },
+  {
+    "id": "pro-chat",
+    "name": "Professional Chat",
+    "iconSrc": "/homepage/icons/channels/chat.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Professional Chat Channel",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps":[],
+    "channelIds":["home-chat"]
+  },
+  {
+    "id": "pro-developer", "name": "Professional Developer",
+    "iconSrc": "/homepage/icons/channels/developer.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Professional Developer Channel",
+    "drm": {
+      "minLevel": 261
+    },
+    "appCategories":["developer", "servers"],
+    "apps": [
+      { "id": "apache/apache" },
+      { "id": "apache/tomcat" },
+      { "id": "aspnet/aspnet5" },
+      { "id": "aspnet/aspnet5-dev" },
+      { "id": "git/git" },
+      { "id": "grails/grails" },
+      { "id": "jetty/jetty" },
+      { "id": "nginx/nginx" },
+      { "id": "node/node" },
+      { "id": "php/php" },
+      { "id": "ruby/ruby" },
+      { "id": "sqlserver/ssms2012" },
+      { "id": "sqlserver/ssms2014" },
+      { "id": "sqlserver/sqlserver2012-express" },
+      { "id": "sqlserver/sqlserver2014-express" }
+    ]
+  },
+  {
+    "id": "pro-productivity",
+    "name": "Professional Productivity",
+    "iconSrc": "/homepage/icons/channels/productivity.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Professional Productivity Channel",
+    "drm": {
+      "minLevel": 261
+    },
+    "channelIds":["home-productivity"],
+    "apps":[
+      { "id": "codeblocks/codeblocks" }
+    ]
+  },
+  {
+    "id": "pro-tools",
+    "name": "Professional Tools",
+    "iconSrc": "/homepage/icons/channels/tools.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Professional Tools Channel",
+    "drm": {
+      "minLevel": 261
+    },
+    "appCategories":["tools"],
+    "channelIds":["home-tools"],
+    "apps": [
+      { "id": "microsoft/storageexplorer" },
+      { "id": "gnu/wget" },
+      { "id": "winscp/winscp" }
+    ]
+  },
+  {
+    "id": "pro-web",
+    "name": "Professional Web",
+    "iconSrc": "/homepage/icons/channels/browsers.png",
+    "iconSettings": {
+      "backgroundColor": "#9898A0",
+      "padded": true
+    },
+    "description": "The Professional Web Channel",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps":[
+      { "id": "curl/curl" },
+      { "id": "google/chromium-canary" },
+      { "id": "mozilla/firefox-beta" },
+      { "id": "mozilla/firefox-developer" },
+      { "id": "mozilla/firefox-nightly" },
+      { "id": "putty/putty" },
+      { "id": "gnu/wget" }
+    ],
+    "channelIds":["home-web"]
+  },
+  {
+    "id": "browsers",
+    "name": "Browser Sandbox",
+    "iconSrc": "/homepage/icons/channels/browsers.png",
+    "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
+    "backgroundColor": "#147a38",
+    "description": "Run any browser instantly online. Click to run with no installs.",
+    "drm": {
+      "minLevel": 261,
+      "exemptLatestRelease": true
+    },
+    "expandReleases": true,
+    "apps": [
+      { "id": "microsoft/ie" },
+      { "id": "google/chrome" },
+      { "id": "mozilla/firefox" },
+      { "id": "google/chromium-canary" },
+      { "id": "mozilla/firefox-mobile" },
+      { "id": "apple/safari" },
+      { "id": "opera/opera" },
+      { "id": "mozilla/firefox-nightly" }
+    ],
+    "relatedPaths":["selenium", "sql"],
+    "isSandbox": false,
+    "helpHtml": "Click on a browser to launch it instantly.<br><br>Press <strong>Add</strong> to customize with plugins, automatic URL redirection, IP routing rules and network restrictions, permissions settings, ad blocking, and other options.<br><br>Deploy custom browser containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
+    "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
+    "preserveOrder": true
+  },
+  {
+    "id": "sql",
+    "name": "SQL Sandbox",
+    "iconSrc": "/homepage/icons/channels/sql.png",
+    "backgroundSrc": "/images/repos/backgrounds/sql.png",
+    "backgroundColor": "#A81F1E",
+    "description": "Run SQL Server, SQL Management Studio, and other databases containerized with no installs.",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [
+      {
+        "id": "sqlserver/sqlserver2012-express",
+        "featured": true
+      },
+      {
+        "id": "sqlserver/sqlserver2014-express",
+        "featured": true
+      },
+      {
+        "id": "sqlserver/sqlserver2014-localdb",
+        "featured": true
+      },
+      {
+        "id": "sqlserver/ssms2012",
+        "featured": true
+      },
+      {
+        "id": "sqlserver/ssms2014",
+        "featured": true
+      },
+      { "id": "mariadb/mariadb" },
+      { "id": "mongodb/mongo" },
+      { "id": "mysql/mysql" }
+    ],
+    "relatedPaths":["browsers", "selenium"],
+    "helpHtml": "Click to launch any database server instantly. You can run multiple database servers to form a cluster.<br/><br/>Launch appropriate management clients and tools.<br/><br/>Connect to the database server using the following credentials:<br/><br/><strong>Server name:</strong> localhost<br/><strong>Auth:</strong> SQL Server<br/><strong>Login:</strong> sa<br/><strong>Password:</strong> password1",
+    "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:"
+  },
+  {
+    "id": "citrix",
+    "name": "Citrix Sandbox",
+    "iconSrc": "/homepage/icons/channels/citrix.png",
+    "backgroundSrc": "/images/repos/backgrounds/citrix.png",
+    "backgroundColor": "#0A3662",
+    "description": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [],
+    "subsections": [
+      {
+        "name": "Citrix Receiver",
+        "apps": [
+          {
+            "id": "citrix/receiver-web",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      },
+      {
+        "name": "Citrix Administrator",
+        "apps": [
+          { "id": "citrix/gotomeeting" },
+          { "id": "putty/putty" },
+          { "id": "sysinternals/bginfo" },
+          { "id": "sysinternals/logparser" },
+          { "id": "sysinternals/sysinternals" },
+          { "id": "controlup/controlupconsole" }
+        ]
+      }
+    ],
+    "helpHtml": "Click <strong>Run</strong> to launch any version of Citrix Receiver instantly.<br><br>Multiple versions can be run side-by-side with no installs.<br><br>Press <strong>Add</strong> to apply IP network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
+    "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:"
+  },
+  {
+    "id": "vmware",
+    "name": "VMware Administrator",
+    "iconSrc": "/homepage/icons/channels/vmwarelogo.png",
+    "iconSettings": {
+      "backgroundColor": "#35653B",
+      "padded": true
+    },
+    "backgroundSrc": "/images/repos/backgrounds/vmwarebackground.png",
+    "backgroundColor": "#64A25B",
+    "description": "Essential tools for every VMware administrator available instantly online",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [
+      {
+        "id": "vmware/vsphereclient",
+        "featured": true,
+        "expandReleases": true,
+        "exemptLatestRelease": true
+      },
+      {
+        "id": "vmware/vsphereclient-web",
+        "featured": true
+      },
+      {
+        "id": "vmware/horizonadmin",
+        "featured": true
+      },
+      {
+        "id": "sysinternals/bginfo",
+        "exemptLatestRelease": true
+      },
+      {
+        "id": "sysinternals/logparser"
+      },
+      {
+        "id": "sysinternals/sysinternals"
+      }
+    ],
+    "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
+    "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:"
+  }
+]
