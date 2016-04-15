@@ -15,65 +15,6 @@
     "hidden": true
   },
   {
-    "id": "free-web",
-    "name": "Free Web",
-    "iconSrc": "/homepage/icons/channels/browsers.png",
-    "iconSettings": {
-      "backgroundColor": "#9898A0",
-      "padded": true
-    },
-    "description": "The Free Web Channel",
-    "drm": {
-      "minLevel": 0
-    },
-    "apps": [
-      { "id": "mozilla/firefox" },
-      { "id": "google/chrome" }
-    ]
-  },
-  {
-    "id": "free-productivity",
-    "name": "Free Productivity",
-    "iconSrc": "/homepage/icons/channels/productivity.png",
-    "iconSettings": {
-      "backgroundColor": "#9898A0"
-    },
-    "description": "The Free Productivity Channel",
-    "drm": {
-      "minLevel": 0
-    },
-    "appCategories": ["viewers", "readers"],
-    "apps": [
-      { "id": "libreoffice/base" },
-      { "id": "libreoffice/calc" },
-      { "id": "libreoffice/draw" },
-      { "id": "libreoffice/impress" },
-      { "id": "libreoffice/math" },
-      { "id": "libreoffice/writer" },
-      { "id": "npp/notepadplusplus" },
-      { "id": "paintdotnet/paintdotnet" },
-      { "id": "videolan/vlc" }
-    ]
-  },
-  {
-    "id": "free-tools",
-    "name": "Free Tools",
-    "iconSrc": "/homepage/icons/channels/tools.png",
-    "iconSettings": {
-      "backgroundColor": "#9898A0",
-      "padded": true
-    },
-    "description": "The Free Tools Channel",
-    "drm": {
-      "minLevel": 0
-    },
-    "apps":[
-      { "id": "7-zip/7-zip" },
-      { "id": "7-zip/7-zip-console" },
-      { "id": "rarlab/winrar" }
-    ]
-  },
-  {
     "id": "home-chat",
     "name": "Home Chat",
     "iconSrc": "/homepage/icons/channels/chat.png",
@@ -132,9 +73,17 @@
       { "id": "sketchup/sketchup" },
       { "id": "teamviewer/teamviewer" },
       { "id": "turbobrowsers/webexmeetings" },
-      { "id": "webex/webex-player" }
-    ],
-    "channelIds":["free-productivity"]
+      { "id": "webex/webex-player" },
+      { "id": "libreoffice/base" },
+      { "id": "libreoffice/calc" },
+      { "id": "libreoffice/draw" },
+      { "id": "libreoffice/impress" },
+      { "id": "libreoffice/math" },
+      { "id": "libreoffice/writer" },
+      { "id": "npp/notepadplusplus" },
+      { "id": "paintdotnet/paintdotnet" },
+      { "id": "videolan/vlc" }
+    ]
   },
   {
     "id": "home-tools",
@@ -155,9 +104,11 @@
       { "id": "filezilla/filezilla" },
       { "id": "qbittorrent/qbittorrent" },
       { "id": "vuze/vuze" },
-      { "id": "ytdvideodownloader/ytdvideodownloader" }
-    ],
-    "channelIds":["free-tools"]
+      { "id": "ytdvideodownloader/ytdvideodownloader" },
+      { "id": "7-zip/7-zip" },
+      { "id": "7-zip/7-zip-console" },
+      { "id": "rarlab/winrar" }
+    ]
   },
   {
     "id": "home-web",
@@ -174,8 +125,10 @@
     "apps":[
       { "id": "apple/safari" },
       { "id": "bluegriffon/bluegriffon" },
+      { "id": "google/chrome" },
       { "id": "microsoft/dotnet" },
       { "id": "microsoft/silverlight" },
+      { "id": "mozilla/firefox" },
       { "id": "mozilla/firefox-mobile" },
       { "id": "opera/opera" },
       { "id": "oracle/jre" },
@@ -183,8 +136,7 @@
       { "id": "turbobrowsers/facebook" },
       { "id": "turbobrowsers/turbo-firefox" },
       { "id": "turbobrowsers/twitter" }
-    ],
-    "channelIds":["free-web"]
+    ]
   },
   {
     "id": "pro-chat",
