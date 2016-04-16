@@ -22,7 +22,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Home Chat Channel",
+    "description": "Use voice, video, and text messages to chat with people that are close or far away.",
     "drm": {
       "minLevel": 259
     },
@@ -47,7 +47,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Home Productivity Channel",
+    "description": "Applications and office suites for working with audio, video, picture, and document files at home.",
     "drm": {
       "minLevel": 259
     },
@@ -93,7 +93,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Home Tools Channel",
+    "description": "Popular utilities for completing common tasks, like unzipping archives and sharing files.",
     "drm": {
       "minLevel": 259
     },
@@ -118,13 +118,12 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Home Web Channel",
+    "description": "All the browsers and add-ons you need to use web apps and watch movies online, now with ad-blocking enabled by default to protect your privacy.",
     "drm": {
       "minLevel": 259
     },
     "apps":[
       { "id": "apple/safari" },
-      { "id": "bluegriffon/bluegriffon" },
       { "id": "google/chrome" },
       { "id": "microsoft/dotnet" },
       { "id": "microsoft/silverlight" },
@@ -146,7 +145,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Professional Chat Channel",
+    "description": "Use voice, video, and text messages to communicate with clients and remote colleagues.",
     "drm": {
       "minLevel": 261
     },
@@ -160,7 +159,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Professional Developer Channel",
+    "description": "Servers, tools, languages, frameworks, and everything else for creating modern web applications and sites.",
     "drm": {
       "minLevel": 261
     },
@@ -173,6 +172,7 @@
       { "id": "git/git" },
       { "id": "grails/grails" },
       { "id": "jetty/jetty" },
+      { "id": "winscp/winscp" },
       { "id": "nginx/nginx" },
       { "id": "node/node" },
       { "id": "php/php" },
@@ -191,7 +191,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Professional Productivity Channel",
+    "description": "Applications and office suites for working with audio, video, picture, and document files at the office.",
     "drm": {
       "minLevel": 261
     },
@@ -208,7 +208,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Professional Tools Channel",
+    "description": "System tools and utilities for system administrators and power users.",
     "drm": {
       "minLevel": 261
     },
@@ -228,7 +228,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "The Professional Web Channel",
+    "description": "Nightly and developer builds of popular browsers and web development tools.",
     "drm": {
       "minLevel": 261
     },
@@ -277,7 +277,7 @@
     "iconSrc": "/homepage/icons/channels/sql.png",
     "backgroundSrc": "/images/repos/backgrounds/sql.png",
     "backgroundColor": "#A81F1E",
-    "description": "Run SQL Server, SQL Management Studio, and other databases containerized with no installs.",
+    "description": "Run SQL Server, SQL Management Studio (SSMS), and other databases containerized with no installs.",
     "drm": {
       "minLevel": 261
     },
