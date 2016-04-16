@@ -145,7 +145,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "Use voice, video, and text messages to chat with people that are close or far away.",
+    "description": "Use voice, video, and text messages to communicate with clients and remote colleagues.",
     "drm": {
       "minLevel": 261
     },
