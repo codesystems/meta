@@ -22,7 +22,7 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "Use voice, video, and text messages to chat with people that are close or far away.",
+    "description": "Popular personal chat applications such as Slack, Skype, Line, and Viber",
     "drm": {
       "minLevel": 259
     },
@@ -138,28 +138,14 @@
     ]
   },
   {
-    "id": "pro-chat",
-    "name": "Professional Chat",
-    "iconSrc": "/homepage/icons/channels/chat.png",
-    "iconSettings": {
-      "backgroundColor": "#9898A0",
-      "padded": true
-    },
-    "description": "Use voice, video, and text messages to communicate with clients and remote colleagues.",
-    "drm": {
-      "minLevel": 261
-    },
-    "apps":[],
-    "channelIds":["home-chat"]
-  },
-  {
     "id": "pro-developer", "name": "Professional Developer",
     "iconSrc": "/homepage/icons/channels/developer.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "Servers, tools, languages, frameworks, and everything else for creating modern web applications and sites.",
+    "description": "Development tools, servers, and other key utilities for the professional developer.",
+    "h2": "Development tools, servers, and other key utilities for the professional developer.",
     "drm": {
       "minLevel": 261
     },
@@ -169,6 +155,7 @@
       { "id": "apache/tomcat" },
       { "id": "aspnet/aspnet5" },
       { "id": "aspnet/aspnet5-dev" },
+      { "id": "codeblocks/codeblocks" }
       { "id": "git/git" },
       { "id": "grails/grails" },
       { "id": "jetty/jetty" },
@@ -192,12 +179,12 @@
       "padded": true
     },
     "description": "Applications and office suites for working with audio, video, picture, and document files at the office.",
+    "h2": "Applications and office suites for working with audio, video, picture, and document files at the office.",
     "drm": {
       "minLevel": 261
     },
     "channelIds":["home-productivity"],
     "apps":[
-      { "id": "codeblocks/codeblocks" }
     ]
   },
   {
@@ -208,7 +195,8 @@
       "backgroundColor": "#9898A0",
       "padded": true
     },
-    "description": "System tools and utilities for system administrators and power users.",
+    "description": "Tools and utilities for system administrators and power users always at your fingertips.",
+    "h2": "Tools and utilities for system administrators and power users always at your fingertips.",
     "drm": {
       "minLevel": 261
     },
@@ -249,7 +237,8 @@
     "iconSrc": "/homepage/icons/channels/browsers.png",
     "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
     "backgroundColor": "#147a38",
-    "description": "Run any browser instantly online. Click to run with no installs.",
+    "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
+    "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
     "drm": {
       "minLevel": 261,
       "exemptLatestRelease": true
@@ -277,7 +266,7 @@
     "iconSrc": "/homepage/icons/channels/sql.png",
     "backgroundSrc": "/images/repos/backgrounds/sql.png",
     "backgroundColor": "#A81F1E",
-    "description": "Run SQL Server, SQL Management Studio (SSMS), and other databases containerized with no installs.",
+    "description": "Run SQL Server, SQL Management Studio (SSMS), and other databases in containers.",
     "drm": {
       "minLevel": 261
     },
@@ -316,7 +305,8 @@
     "iconSrc": "/homepage/icons/channels/citrix.png",
     "backgroundSrc": "/images/repos/backgrounds/citrix.png",
     "backgroundColor": "#0A3662",
-    "description": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
+    "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
+    "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
     "drm": {
       "minLevel": 261
     },
@@ -357,7 +347,8 @@
     },
     "backgroundSrc": "/images/repos/backgrounds/vmwarebackground.png",
     "backgroundColor": "#64A25B",
-    "description": "Essential tools for every VMware administrator available instantly online",
+    "description": "VMware administration essentials, including admin consoles and every vSphere client version.",
+    "h2": "Run a VMware Horizon Administration Console and any vSphere client version instantly, plus top tools for VMware administrators.",
     "drm": {
       "minLevel": 261
     },
