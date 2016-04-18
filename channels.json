@@ -297,7 +297,9 @@
     ],
     "relatedPaths":["browsers", "selenium"],
     "helpHtml": "Click to launch any database server instantly. You can run multiple database servers to form a cluster.<br/><br/>Launch appropriate management clients and tools.<br/><br/>Connect to the database server using the following credentials:<br/><br/><strong>Server name:</strong> localhost<br/><strong>Auth:</strong> SQL Server<br/><strong>Login:</strong> sa<br/><strong>Password:</strong> password1",
-    "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:"
+    "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
+    "h3Featured": "SQL Server and SQL Server Management Studio (SSMS)",
+    "h3": "Other SQL Databases"
   },
   {
     "id": "citrix",
@@ -379,8 +381,6 @@
       }
     ],
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
-    "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
-	"h3Featured": "Featured VMWare Applications",
-	"h3": "VMWare Admin Apps"
+    "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:"
   }
 ]
