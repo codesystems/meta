@@ -379,6 +379,8 @@
       }
     ],
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
-    "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:"
+    "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
+	"h3Featured": "Featured VMWare Applications",
+	"h3": "VMWare Admin Apps"
   }
 ]
