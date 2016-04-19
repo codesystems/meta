@@ -394,8 +394,8 @@
       "backgroundColor": "#5FA8CC",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/powershellbackground.jpg",
-    "backgroundColor": "#024C68",
+    "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
+    "backgroundColor": "#011247",
     "description": "Development tools for the professional PowerShell developer.",
     "h2": "Run a specific version of PowerShell instantly, plus access top tools for PowerShell developers.",
     "drm": {
