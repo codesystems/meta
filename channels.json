@@ -389,7 +389,7 @@
   
 {
     "id": "powershell",
-    "name": "PowerShell Developer",
+    "name": "PowerShell Sandbox",
     "iconSrc": "/homepage/icons/channels/powershelllogo.png",
     "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
     "backgroundColor": "#011247",
