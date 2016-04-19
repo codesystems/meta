@@ -391,6 +391,10 @@
     "id": "powershell",
     "name": "PowerShell Sandbox",
     "iconSrc": "/homepage/icons/channels/powershelllogo.png",
+     "iconSettings": {
+      "backgroundColor": "#5FA8CC",
+      "padded": true
+    },
     "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
     "backgroundColor": "#011247",
     "description": "Development tools for the professional PowerShell developer.",
