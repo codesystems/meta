@@ -422,7 +422,6 @@
     ],
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
-    "h3Featured": "Run a specific version of PowerShell instantly",
-    "h3": "PowerShell Editors"
+    "h3": "PowerShell Sandbox"
   }
 ]
