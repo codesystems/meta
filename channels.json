@@ -244,15 +244,50 @@
       "exemptLatestRelease": true
     },
     "expandReleases": true,
-    "apps": [
-      { "id": "microsoft/ie" },
-      { "id": "google/chrome" },
-      { "id": "mozilla/firefox" },
-      { "id": "google/chromium-canary" },
-      { "id": "mozilla/firefox-mobile" },
-      { "id": "apple/safari" },
-      { "id": "opera/opera" },
-      { "id": "mozilla/firefox-nightly" }
+    "apps": [],
+    "subsections": [
+      {
+        "name": "Internet Explorer (IE 8, IE 9, IE 10, and IE 11, and more)",
+        "apps": [
+          { "id": "microsoft/ie" }
+        ]
+      },
+      {
+        "name": "Chrome",
+        "apps": [
+          { "id": "google/chrome" }
+        ]
+      },
+      {
+        "name": "Firefox",
+        "apps": [
+          { "id": "mozilla/firefox" }
+        ]
+      },
+      {
+        "name": "Chromium Canary",
+        "apps": [
+          { "id": "google/chromium-canary" }
+        ]
+      },
+      {
+        "name": "Firefox Mobile",
+        "apps": [
+          { "id": "mozilla/firefox-mobile" }
+        ]
+      },
+      {
+        "name": "Safari",
+        "apps": [
+          { "id": "apple/safari" }
+        ]
+      },
+      {
+        "name": "Firefox Nightly",
+        "apps": [
+          { "id": "mozilla/firefox-nightly" }
+        ]
+      }
     ],
     "relatedPaths":["selenium", "sql"],
     "isSandbox": false,
@@ -387,7 +422,7 @@
     "h3": "Other VMware Administration Tools"
   },
   
-{
+  {
     "id": "powershell",
     "name": "PowerShell Sandbox",
     "iconSrc": "/homepage/icons/channels/powershelllogo.png",
@@ -427,5 +462,17 @@
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
     "h3": "PowerShell Sandbox"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium Sandbox",
+    "iconSrc": "/homepage/icons/channels/selenium.png",
+    "backgroundSrc": "/images/repos/backgrounds/selenium.png",
+    "description": "",
+    "h2": "",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": []
   }
 ]
