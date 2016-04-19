@@ -474,6 +474,8 @@
     "drm": {
       "minLevel": 261
     },
-    "apps": []
+    "apps": [
+      { "id": "selenium/selenium-grid" }
+    ]
   }
 ]
