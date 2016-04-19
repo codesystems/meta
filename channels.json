@@ -391,7 +391,7 @@
     "name": "PowerShell Developer",
     "iconSrc": "/homepage/icons/channels/powershelllogo.png",
     "iconSettings": {
-      "backgroundColor": "#35653B",
+      "backgroundColor": "#9EDBF0",
       "padded": true
     },
     "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
