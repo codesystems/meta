@@ -385,17 +385,17 @@
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
     "h3Featured": "vSphere Clients and Horizon Administration Console",
     "h3": "Other VMware Administration Tools"
-  }
-{
+  },
+  {
     "id": "powershell",
     "name": "PowerShell Developer",
     "iconSrc": "/homepage/icons/channels/powershelllogo.png",
     "iconSettings": {
-      "backgroundColor": "#9EDBF0",
+      "backgroundColor": "#5FA8CC",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
-    "backgroundColor": "#64A25B",
+    "backgroundSrc": "/images/repos/backgrounds/powershellbackground.jpg",
+    "backgroundColor": "#024C68",
     "description": "Development tools for the professional PowerShell developer.",
     "h2": "Run a specific version of PowerShell instantly, plus access top tools for PowerShell developers.",
     "drm": {
