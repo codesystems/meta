@@ -386,4 +386,40 @@
     "h3Featured": "vSphere Clients and Horizon Administration Console",
     "h3": "Other VMware Administration Tools"
   }
+{
+    "id": "powershell",
+    "name": "PowerShell Developer",
+    "iconSrc": "/homepage/icons/channels/powershelllogo.png",
+    "iconSettings": {
+      "backgroundColor": "#35653B",
+      "padded": true
+    },
+    "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
+    "backgroundColor": "#64A25B",
+    "description": "Development tools for the professional PowerShell developer.",
+    "h2": "Run a specific version of PowerShell instantly, plus access top tools for PowerShell developers.",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [
+      {
+        "id": "microsoft/powershell",
+        "featured": true,
+        "expandReleases": true,
+        "exemptLatestRelease": true
+      },
+      {
+        "id": "dell/powergui",
+        "featured": true
+      },
+      {
+        "id": "npp/notepadplusplus",
+        "featured": true
+      }
+    ],
+    "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
+    "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
+    "h3Featured": "Run a specific version of PowerShell instantly",
+    "h3": "Other PowerShell Development Tools"
+  }
 ]
