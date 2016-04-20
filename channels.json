@@ -433,8 +433,8 @@
     "name": "Selenium Sandbox",
     "iconSrc": "/homepage/icons/channels/selenium.png",
     "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
-    "description": "",
-    "h2": "",
+    "description": "Online Selenium Grid with unlimited automated testing.",
+    "h2": "Online Selenium Grid with unlimited automated testing.",
     "drm": {
       "minLevel": 261
     },
