@@ -13,7 +13,7 @@ If you're a Selenium veteran, but you've never used Selenium Grid before, you'll
 
 If you're already using Grid to run your tests, configuring your tests for Spoon is a one-line change. Substitute the URL of your current Selenium Hub with **http://localhost:4444/wd/hub** and you're ready to go!
 
-## Supported Browsers
+#### Supported Browsers
 
 - Chrome 27+
 - Firefox 3+
@@ -21,7 +21,7 @@ If you're already using Grid to run your tests, configuring your tests for Spoon
 
 *Don't see your preferred browser? [Let us know](/contact) and we'll do our best to get it added.*
 
-## Starting the Spoon Hub
+#### Starting the Spoon Hub
 
 In your web browser, click the **Start Grid** button in the top-left corner of the page. A buffering dialog will appear on your desktop. When the buffering dialog completes, check the **Hub** window on the page. When the Spoon hub is ready, this output will appear in the window:
 
@@ -31,7 +31,7 @@ In your web browser, click the **Start Grid** button in the top-left corner of t
     2014-06-26 15:21:24.088:INFO:osjsh.ContextHandler:started o.s.j.s.ServletContextHandler{/,null}
     2014-06-26 15:21:24.094:INFO:osjs.AbstractConnector:Started SocketConnector@0.0.0.0:4444
 
-## Adapting Your Test
+#### Adapting Your Test
 
 To adapt an existing test for use on Spoon, you'll need to change all of your WebDriver instances to use the **RemoteWebDriver** class, instead of a native driver for Firefox, Chrome, or Internet Explorer.
 
@@ -97,7 +97,7 @@ Using FirefoxDriver:
     caps = desired_capabilities.FIREFOX
     driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", desired_capabilities=caps)
 
-## Choosing a Browser to Test
+#### Choosing a Browser to Test
 
 The Spoon Hub determines which browser you would like to test against using the **DesiredCapabilities** of the WebDriver that the test is using.
 
@@ -136,7 +136,7 @@ In Python, you can modify the `desired_capabilities` just like a dictionary:
     python
     capabilities['version'] = '30'
 
-## Adapting Tests from Other Services
+#### Adapting Tests from Other Services
 
 If you've used another cloud-based Selenium service in the past, switching over to Spoon is as easy as switching a couple of lines of code.
 
@@ -163,7 +163,7 @@ If you were previously using any of the extension methods provided by the **Test
 
 In addition to deleting Testing Bot-specific capabilities, change the hub URL in your tests from **http://hub.testingbot.com:4444/wd/hub** to **http://localhost:4444/wd/hub**.
 
-# Debugging Tests
+### Debugging Tests
 
 Unlike other cloud-based testing services, Spoon makes live debugging of your tests as easy as setting a breakpoint in your IDE.
 
@@ -171,7 +171,7 @@ When your test contains a breakpoint, the test will execute normally until it hi
 
 **Note**: Spoon is currently configured to automatically recycle any session that continues for 90 seconds without a successive command. This may cause your debugging session to end abruptly if it lasts longer than 90 seconds. We are currently working towards an option to turn this feature off for cases where a longer debugging time is required.
 
-# Integrating Spoon with an Existing Grid
+### Integrating Spoon with an Existing Grid
 
 If you or your development team already have an in-house Selenium Grid, you can use Spoon to "fill in the gaps" in your Grid to support browsers that you may not have the capacity or hardware to host internally.
 
@@ -179,7 +179,7 @@ For example, if your in-house Grid is only large enough to host and support the 
 
 After initial configuration and setup, the Spoon hub will automatically provision and run tests on any browser that is not in your internal Grid.
 
-## Setup Guide
+#### Setup Guide
 
 The Spoon hub has the same external API as the standard Selenium hub. You can connect external nodes to the Spoon hub just like you would a normal Selenium hub.
 
@@ -194,7 +194,7 @@ The Spoon hub has the same external API as the standard Selenium hub. You can co
 
 Once your Grid is configured, you can send your tests to it just as you normally would. If the hub cannot find a matching browser on your internal nodes, it will automatically provision a fresh browser from Spoon.net and run the test on it.
 
-# Testing Internal Sites
+### Testing Internal Sites
 
 Testing internal websites with Spoon is just as easy as testing public websites.
 
@@ -216,7 +216,7 @@ Below is some example code demonstrating how you would run your test against an 
     # Python
     driver.get("http://my-internal-server:8080")
 
-# Testing Internet Explorer
+### Testing Internet Explorer
 
 When testing parallel instances of Internet Explorer on Spoon, we recommend setting the following options in your test.
 
@@ -227,7 +227,7 @@ Using these settings helps prevent cookies and other session-specific items from
 
 If you are not testing multiple instances of Internet Explorer in parallel, we recommend setting the **Ensure Clean Session** capability to **True**.
 
-## Configuring Internet Explorer Options
+#### Configuring Internet Explorer Options
 
 See below for language-specific instructions for how to properly configure your Internet Explorer tests for Spoon.
 
@@ -278,7 +278,7 @@ See below for language-specific instructions for how to properly configure your 
     # Instantiate the driver
     driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", desired_capabilities=capabilities)
 
-## Internet Explorer Container Configuration
+#### Internet Explorer Container Configuration
 
 Spoon's Internet Explorer containers are packaged and pre-configured to work with Selenium's Remote WebDriver without any end-user configuration. Each container is pre-configured with the following settings:
 
@@ -291,14 +291,14 @@ For Internet Explorer 11, the registry key **HKLM\Software\Microsoft\Internet Ex
 
 For more information on these changes, as they relate to the InternetExplorerDriver, see [the Selenium documentation](https://code.google.com/p/selenium/wiki/InternetExplorerDriver).
 
-## Internet Explorer "Gotchas"
+#### Internet Explorer "Gotchas"
 
 The InternetExplorerDriver in Selenium has some unique features that may cause unexpected test results. Below, we've compiled a list of some of the most commonly encountered "gotchas" we've seen testing Internet Explorer.
 
 - When testing Internet Explorer, the browser zoom level should always be left at 100%. The IEDriverServer relies on this zoom level for native mouse events - configuring the zoom to be greater or less than 100% may cause inadvertent failures in your tests.
 - If you are using a hover command in your tests, do not place your mouse over the Internet Explorer window. Doing so causes the hover to fail.
 
-# Reporting
+### Reporting
 
 Though all tests execute locally in containers, test reports and screenshots are logged and saved on your Spoon.net account for easy sharing and access.
 
@@ -308,7 +308,7 @@ When unchecked, command and screenshot logs will still appear for review after y
 
 Reports can also be disabled for the organization as a whole by modifying the privacy settings for the organization. This can be done by the organization owner and overrides the settings for the users within the organization.
 
-## Sharing Tests
+#### Sharing Tests
 
 The visibility of your test results can be controlled through two methods:
 
@@ -317,13 +317,13 @@ The visibility of your test results can be controlled through two methods:
 
 To share a test, make sure the test's visibility is set to Public. Once this is set, the corresponding report is visible to anyone with the share link.
 
-## Deleting Tests
+#### Deleting Tests
 
 If you're running low on storage space, or you'd just like to clear up your account history, you can delete old tests.
 
 To delete a test, go to the Test Reports table and click the X icon corresponding to the test you would like to delete.
 
-## Test Reports
+#### Test Reports
 
 Each test report contains a step-by-step breakdown of all the commands run for a given test.
 
@@ -335,9 +335,9 @@ A screenshot of the webpage during the command.
 
 In the report, commands are grouped by their associated screenshot. When you see a sequence of commands associated with a single screenshot, this means that the page did not visually change throughout this sequence of commands.
 
-# Common Issues and Troubleshooting
+### Common Issues and Troubleshooting
 
-## Cannot connect to the Spoon Hub
+#### Cannot connect to the Spoon Hub
 
 Before proceeding, make sure the Spoon hub is running on your local computer. You can check this by opening **Windows Task Manager** and checking the **Processes** tab for *SpooniumComponent.exe*.
 
@@ -345,13 +345,13 @@ Before proceeding, make sure the Spoon hub is running on your local computer. Yo
 
 If possible, check your firewall and make sure port 4444 is not blocked. This is the port the Spoon hub listens for commands on. If this port is blocked, it must be unblocked before using Spoon.
 
-## Cannot Launch the Spoon Hub
+#### Cannot Launch the Spoon Hub
 
 Ensure that the Spoon Plugin is installed and running. The Spoon Plugin can be downloaded from [http://start.spoon.net/install](http://start.spoon.net/install).
 
 To run or restart the Spoon Plugin once installed, go to the **Start Menu** > **All Programs** > **Startup** and select **Spoon.net Sandbox Manager 3.33**.
 
-## After clicking **Start Grid**, "Pending" appears but the Grid never launches
+#### After clicking **Start Grid**, "Pending" appears but the Grid never launches
 
 This issue occurs when the Spoon Plugin is not activate or installed. If you have not installed the Spoon Plugin, it can be downloaded from [http://start.spoon.net/install](http://start.spoon.net/install).
 
@@ -371,7 +371,7 @@ If the Spoon Plugin is installed and you continue to see this issue, verify that
 2. Locate **Spoon Plugin** and check the **Always allowed** box.
 3. Restart Google Chrome to apply this new setting.
 
-## Selenium Errors
+#### Selenium Errors
 
 **Internet Explorer does not launch with Error "IELaunchURL() returned HRESULT 80070012"**
 
