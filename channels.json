@@ -442,7 +442,6 @@
         "id": "microsoft/powershell",
         "featured": true,
         "expandReleases": true,
-        "exemptLatestRelease": true
       },
       {
         "id": "dell/powergui",
