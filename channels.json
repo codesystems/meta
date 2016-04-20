@@ -391,7 +391,7 @@
     "id": "powershell",
     "name": "PowerShell Sandbox",
     "iconSrc": "/homepage/icons/channels/powershelllogo.png",
-     "iconSettings": {
+    "iconSettings": {
       "backgroundColor": "#99d6ff",
       "padded": true
     },
@@ -432,6 +432,10 @@
     "id": "selenium",
     "name": "Selenium Sandbox",
     "iconSrc": "/homepage/icons/channels/selenium.png",
+    "iconSettings": {
+      "backgroundColor": "#1b7e45",
+      "padded": true
+    },
     "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
     "description": "Online Selenium Grid with unlimited automated testing.",
     "h2": "Online Selenium Grid with unlimited automated testing.",
@@ -440,6 +444,8 @@
     },
     "apps": [
       { "id": "selenium/selenium-grid" }
-    ]
+    ],
+    "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
+    "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:"
   }
 ]
