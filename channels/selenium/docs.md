@@ -25,13 +25,11 @@ If you're already using Grid to run your tests, configuring your tests for Spoon
 
 In your web browser, click the **Start Grid** button in the top-left corner of the page. A buffering dialog will appear on your desktop. When the buffering dialog completes, check the **Hub** window on the page. When the Spoon hub is ready, this output will appear in the window:
 
-```
-Jun 26, 2014 3:21:23 PM org.openqa.grid.selenium.GridLauncher main
-INFO: Launching a selenium grid server
-2014-06-26 15:21:24.064:INFO:osjs.Server:jetty-7.x.y-SNAPSHOT
-2014-06-26 15:21:24.088:INFO:osjsh.ContextHandler:started o.s.j.s.ServletContextHandler{/,null}
-2014-06-26 15:21:24.094:INFO:osjs.AbstractConnector:Started SocketConnector@0.0.0.0:4444
-```
+    Jun 26, 2014 3:21:23 PM org.openqa.grid.selenium.GridLauncher main
+    INFO: Launching a selenium grid server
+    2014-06-26 15:21:24.064:INFO:osjs.Server:jetty-7.x.y-SNAPSHOT
+    2014-06-26 15:21:24.088:INFO:osjsh.ContextHandler:started o.s.j.s.ServletContextHandler{/,null}
+    2014-06-26 15:21:24.094:INFO:osjs.AbstractConnector:Started SocketConnector@0.0.0.0:4444
 
 #### Adapting Your Test
 
@@ -45,62 +43,59 @@ Below, we've included approximate comparisons of the driver setup for a test usi
 
 Using FirefoxDriver:
 
-```java
-/*
- * Using FirefoxDriver
- */
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-WebDriver driver = new FirefoxDriver();
-
-/*
- * Adapted for Spoon
- */
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver
-
-DesiredCapabilities caps = DesiredCapabilities.firefox();
-WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
-```
+    java
+    /*
+     * Using FirefoxDriver
+     */
+    import org.openqa.selenium.firefox.FirefoxDriver;
+    
+    WebDriver driver = new FirefoxDriver();
+    
+    /*
+     * Adapted for Spoon
+     */
+    import org.openqa.selenium.remote.DesiredCapabilities;
+    import org.openqa.selenium.remote.RemoteWebDriver
+    
+    DesiredCapabilities caps = DesiredCapabilities.firefox();
+    WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
 
 **C#**
 
-```csharp
-/*
- * Using FirefoxDriver
- */
-using OpenQA.Selenium.Firefox;
-
-IWebDriver driver = new FirefoxDriver();
-
-/*
- * Adapted for Spoon
- */
-using OpenQA.Selenium.Remote;
-
-ICapabilities caps = DesiredCapabilities.Firefox();
-IWebDriver driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), caps);
-```
+    csharp
+    /*
+     * Using FirefoxDriver
+     */
+    using OpenQA.Selenium.Firefox;
+    
+    IWebDriver driver = new FirefoxDriver();
+    
+    /*
+     * Adapted for Spoon
+     */
+    using OpenQA.Selenium.Remote;
+    
+    ICapabilities caps = DesiredCapabilities.Firefox();
+    IWebDriver driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), caps);
 
 **Python**
 
-```python
-"""
-Using webdriver.Firefox
-"""
-from selenium import webdriver
-
-driver = webdriver.Firefox()
-
-"""
-Adapted for Spoon
-"""
-from selenium import webdriver
-from selenium import webdriver.common
-
-caps = desired_capabilities.FIREFOX
-driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", desired_capabilities=caps)
-```
+    python
+    """
+    Using webdriver.Firefox
+    """
+    from selenium import webdriver
+    
+    driver = webdriver.Firefox()
+    
+    """
+    Adapted for Spoon
+    """
+    from selenium import webdriver
+    from selenium import webdriver.common
+    
+    caps = desired_capabilities.FIREFOX
+    driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", desired_capabilities=caps)
 
 #### Choosing a Browser to Test
 
@@ -108,44 +103,38 @@ The Spoon Hub determines which browser you would like to test against using the 
 
 All of the major language bindings have a **DesiredCapabilities** (or **desired_capabilities** in the case of Python) class that have attributes for each browser. Change this attribute to change the browser the test will run against.
 
-```java
-// Java
-DesiredCapabilities.firefox(); 				// Mozilla Firefox
-DesiredCapabilities.chrome();				// Google Chrome
-DesiredCapabilities.ie();					// Internet Explorer
-```
+    java
+    // Java
+    DesiredCapabilities.firefox(); 				// Mozilla Firefox
+    DesiredCapabilities.chrome();				// Google Chrome
+    DesiredCapabilities.ie();					// Internet Explorer
 
-```csharp
-// C#
-DesiredCapabilities.Firefox();
-DesiredCapabilities.Chrome();
-DesiredCapabilities.InternetExplorer();
-```
+    csharp
+    // C#
+    DesiredCapabilities.Firefox();
+    DesiredCapabilities.Chrome();
+    DesiredCapabilities.InternetExplorer();
 
-```python
-# Python
-desired_capabilities.FIREFOX
-desired_capabilities.CHROME
-desired_capabilities.INTERNETEXPLORER
-```
+    python
+    # Python
+    desired_capabilities.FIREFOX
+    desired_capabilities.CHROME
+    desired_capabilities.INTERNETEXPLORER
 
 To specify a version to test against, add a **version** capability into your existing test capabilities using a property setter or a `setCapability`/`SetCapability` instance method.
 
-```java
-// Java
-capabilities.setCapability("version", "30");		// Test against version 30
-```
+    java
+    // Java
+    capabilities.setCapability("version", "30");		// Test against version 30
 
-```csharp
-// C#
-capabilities.SetCapability("version", "30");
-```
+    csharp
+    // C#
+    capabilities.SetCapability("version", "30");
 
 In Python, you can modify the `desired_capabilities` just like a dictionary:
 
-```python
-capabilities['version'] = '30'
-```
+    python
+    capabilities['version'] = '30'
 
 #### Adapting Tests from Other Services
 
@@ -215,20 +204,17 @@ The security benefit of this is that no browser data or network traffic passes t
 
 Below is some example code demonstrating how you would run your test against an internal site running at **http://my-internal-server:8080**.
 
-```java
-// Java
-driver.navigate().to("http://my-internal-server:8080");
-```
+    java
+    // Java
+    driver.navigate().to("http://my-internal-server:8080");
 
-```csharp
-// C#
-driver.Navigate().GoToUrl("http://my-internal-server:8080");
-```
+    csharp
+    // C#
+    driver.Navigate().GoToUrl("http://my-internal-server:8080");
 
-```python
-# Python
-driver.get("http://my-internal-server:8080")
-```
+    python
+    # Python
+    driver.get("http://my-internal-server:8080")
 
 ### Testing Internet Explorer
 
@@ -247,53 +233,50 @@ See below for language-specific instructions for how to properly configure your 
 
 **Java**
 
-```java
-// Import the ie package
-import org.openqa.selenium.ie;
-
-// Create DesiredCapabilities for ie
-DesiredCapabilities capabilities = DesiredCapabilities.ie();
-// Force Windows to launch IE through Create Process API and in "private" browsing mode
-capabilities.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS, true);
-capabilities.setCapability(InternetExplorerdriver.IE_SWITCHES, "-private");
-
-// If testing serial instances of IE, add IE_ENSURE_CLEAN_SESSION
-capabilities.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
-
-WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
-```
+    java
+    // Import the ie package
+    import org.openqa.selenium.ie;
+    
+    // Create DesiredCapabilities for ie
+    DesiredCapabilities capabilities = DesiredCapabilities.ie();
+    // Force Windows to launch IE through Create Process API and in "private" browsing mode
+    capabilities.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS, true);
+    capabilities.setCapability(InternetExplorerdriver.IE_SWITCHES, "-private");
+    
+    // If testing serial instances of IE, add IE_ENSURE_CLEAN_SESSION
+    capabilities.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
+    
+    WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
 
 **C#**
 
-```csharp
-// Add using directive for IE namespace
-using OpenQA.Selenium.IE;
-
-// Use this class in leiu of DesiredCapabilities
-InternetExplorerOptions ieOptions = new InternetExplorerOptions();
-
-// Force Windows to launch IE through Create Process API and in "private" browsing mode
-ieOptions.ForceCreateProcessApi = true
-ieOptions.BrowserCommandLineArguments = "-private";
-ieOptions.AddAdditionalCapability("version", "10");
-
-// Convert ieOptions to an ICapabilities object and instantiate driver
-IWebDriver driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), ieOptions.ToCapabilities());
-```
+    csharp
+    // Add using directive for IE namespace
+    using OpenQA.Selenium.IE;
+    
+    // Use this class in leiu of DesiredCapabilities
+    InternetExplorerOptions ieOptions = new InternetExplorerOptions();
+    
+    // Force Windows to launch IE through Create Process API and in "private" browsing mode
+    ieOptions.ForceCreateProcessApi = true
+    ieOptions.BrowserCommandLineArguments = "-private";
+    ieOptions.AddAdditionalCapability("version", "10");
+    
+    // Convert ieOptions to an ICapabilities object and instantiate driver
+    IWebDriver driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), ieOptions.ToCapabilities());
 
 **Python**
 
-```python
-# Create desired_capabilities
-capabilities = webdriver.DesiredCapabilities.INTERNETEXPLORER
-
-# Force Windows to launch IE through Create Process API and in "private" browsing mode
-capabilities['ie.forceCreateProcessApi'] = True
-capabilities['ie.browserCommandLineArguments'] = '-private'
-
-# Instantiate the driver
-driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", desired_capabilities=capabilities)
-```
+    python
+    # Create desired_capabilities
+    capabilities = webdriver.DesiredCapabilities.INTERNETEXPLORER
+    
+    # Force Windows to launch IE through Create Process API and in "private" browsing mode
+    capabilities['ie.forceCreateProcessApi'] = True
+    capabilities['ie.browserCommandLineArguments'] = '-private'
+    
+    # Instantiate the driver
+    driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", desired_capabilities=capabilities)
 
 #### Internet Explorer Container Configuration
 
