@@ -392,7 +392,7 @@
     "name": "PowerShell Sandbox",
     "iconSrc": "/homepage/icons/channels/powershelllogo.png",
      "iconSettings": {
-      "backgroundColor": "#0B6E8F",
+      "backgroundColor": "#99d6ff",
       "padded": true
     },
     "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
