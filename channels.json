@@ -155,7 +155,7 @@
       { "id": "apache/tomcat" },
       { "id": "aspnet/aspnet5" },
       { "id": "aspnet/aspnet5-dev" },
-      { "id": "codeblocks/codeblocks" }
+      { "id": "codeblocks/codeblocks" },
       { "id": "git/git" },
       { "id": "grails/grails" },
       { "id": "jetty/jetty" },
@@ -235,7 +235,6 @@
     "id": "browsers",
     "name": "Browser Sandbox",
     "iconSrc": "/homepage/icons/channels/browsers.png",
-    "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
     "backgroundColor": "#147a38",
     "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
     "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
@@ -264,7 +263,6 @@
     "id": "sql",
     "name": "SQL Sandbox",
     "iconSrc": "/homepage/icons/channels/sql.png",
-    "backgroundSrc": "/images/repos/backgrounds/sql.png",
     "backgroundColor": "#A81F1E",
     "description": "Run SQL Server, SQL Management Studio (SSMS), and other databases in containers.",
     "drm": {
@@ -306,7 +304,6 @@
     "id": "citrix",
     "name": "Citrix Sandbox",
     "iconSrc": "/homepage/icons/channels/citrix.png",
-    "backgroundSrc": "/images/repos/backgrounds/citrix.png",
     "backgroundColor": "#0A3662",
     "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
     "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
@@ -348,7 +345,6 @@
       "backgroundColor": "#35653B",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/vmwarebackground.png",
     "backgroundColor": "#64A25B",
     "description": "VMware administration essentials, including admin consoles and every vSphere client version.",
     "h2": "Run a VMware Horizon Administration Console and any vSphere client version instantly, plus top tools for VMware administrators.",
@@ -395,7 +391,6 @@
       "backgroundColor": "#99d6ff",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
     "backgroundColor": "#011247",
     "description": "Development tools for the professional PowerShell developer.",
     "h2": "Run a specific version of PowerShell instantly, plus access top tools for PowerShell developers.",
@@ -436,7 +431,6 @@
       "backgroundColor": "#1b7e45",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
     "description": "Online Selenium Grid with unlimited automated testing.",
     "h2": "Online Selenium Grid with unlimited automated testing.",
     "drm": {
