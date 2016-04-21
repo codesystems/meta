@@ -17,7 +17,6 @@
   {
     "id": "home-chat",
     "name": "Home Chat",
-    "iconSrc": "/homepage/icons/channels/chat.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -42,7 +41,6 @@
   {
     "id": "home-productivity",
     "name": "Home Productivity",
-    "iconSrc": "/homepage/icons/channels/productivity.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -88,7 +86,6 @@
   {
     "id": "home-tools",
     "name": "Home Tools",
-    "iconSrc": "/homepage/icons/channels/tools.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -113,7 +110,6 @@
   {
     "id": "home-web",
     "name": "Home Web",
-    "iconSrc": "/homepage/icons/channels/browsers.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -138,8 +134,8 @@
     ]
   },
   {
-    "id": "pro-developer", "name": "Professional Developer",
-    "iconSrc": "/homepage/icons/channels/developer.png",
+    "id": "pro-developer", 
+    "name": "Professional Developer",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -173,7 +169,6 @@
   {
     "id": "pro-productivity",
     "name": "Professional Productivity",
-    "iconSrc": "/homepage/icons/channels/productivity.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -190,7 +185,6 @@
   {
     "id": "pro-tools",
     "name": "Professional Tools",
-    "iconSrc": "/homepage/icons/channels/tools.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -211,7 +205,6 @@
   {
     "id": "pro-web",
     "name": "Professional Web",
-    "iconSrc": "/homepage/icons/channels/browsers.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -234,7 +227,6 @@
   {
     "id": "browsers",
     "name": "Browser Sandbox",
-    "iconSrc": "/homepage/icons/channels/browsers.png",
     "backgroundColor": "#147a38",
     "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
     "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
@@ -262,7 +254,6 @@
   {
     "id": "sql",
     "name": "SQL Sandbox",
-    "iconSrc": "/homepage/icons/channels/sql.png",
     "backgroundColor": "#A81F1E",
     "description": "Run SQL Server, SQL Management Studio (SSMS), and other databases in containers.",
     "drm": {
@@ -303,7 +294,6 @@
   {
     "id": "citrix",
     "name": "Citrix Sandbox",
-    "iconSrc": "/homepage/icons/channels/citrix.png",
     "backgroundColor": "#0A3662",
     "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
     "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
@@ -340,7 +330,6 @@
   {
     "id": "vmware",
     "name": "VMware Administrator",
-    "iconSrc": "/homepage/icons/channels/vmwarelogo.png",
     "iconSettings": {
       "backgroundColor": "#35653B",
       "padded": true
@@ -386,7 +375,6 @@
   {
     "id": "powershell",
     "name": "PowerShell Sandbox",
-    "iconSrc": "/homepage/icons/channels/powershelllogo.png",
     "iconSettings": {
       "backgroundColor": "#99d6ff",
       "padded": true
@@ -426,7 +414,6 @@
   {
     "id": "selenium",
     "name": "Selenium Sandbox",
-    "iconSrc": "/homepage/icons/channels/selenium.png",
     "iconSettings": {
       "backgroundColor": "#1b7e45",
       "padded": true
