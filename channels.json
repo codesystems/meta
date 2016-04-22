@@ -425,9 +425,8 @@
     },
     "apps": [
       {
-	      "id": "selenium/selenium-grid" 
-        "featured": true,
-        "expandReleases": true
+	"id": "selenium/selenium-grid" 
+        "featured": true
       },
       {
         "id": "selenium/python-ide"
