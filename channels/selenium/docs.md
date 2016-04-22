@@ -302,7 +302,7 @@ The InternetExplorerDriver in Selenium has some unique features that may cause u
 
 #### Cannot connect to the Turbo Selenium Hub
 
-Before proceeding, make sure the Turbo Selenium hub is running on your local computer. You can check this by opening **Windows Task Manager** and checking the **Processes** tab for *SpooniumComponent.exe*.
+Before proceeding, make sure the Turbo Selenium hub is running on your local computer. You can check this by opening a browser and going to [http://localhost:4444/grid/console](http://localhost:4444/grid/console).
 
 **Solution 1: Check your Firewall**: This issue may occur if your computer has a restrictive firewall that blocks incoming and outgoing connections to/from your computer.
 
