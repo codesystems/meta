@@ -429,10 +429,10 @@
         "featured": true
       },
       {
-        "id": "selenium/python-ide"
+        "id": "selenium/selenium-ide"
       },
       {
-        "id": "selenium/selenium-ide"
+        "id": "selenium/python-ide"
       },
     ],
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
