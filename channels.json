@@ -118,19 +118,31 @@
     "drm": {
       "minLevel": 259
     },
+    "subsections": [
+      {
+        "name": "Browsers",
+        "apps": [
+          { "id": "apple/safari" },
+          { "id": "google/chrome" },
+          { "id": "mozilla/firefox" },
+          { "id": "mozilla/firefox-mobile" },
+          { "id": "opera/opera" },
+          { "id": "tor/tor-browser" },
+          { "id": "turbobrowsers/facebook" },
+          { "id": "turbobrowsers/turbo-firefox" },
+          { "id": "turbobrowsers/twitter" }
+        ]
+      },
+      {
+        "name": "Add-On Runtimes",
+        "apps": [
+          { "id": "microsoft/dotnet" },
+          { "id": "microsoft/silverlight" },
+          { "id": "oracle/jre" }
+        ]
+      }
+    ],
     "apps":[
-      { "id": "apple/safari" },
-      { "id": "google/chrome" },
-      { "id": "microsoft/dotnet" },
-      { "id": "microsoft/silverlight" },
-      { "id": "mozilla/firefox" },
-      { "id": "mozilla/firefox-mobile" },
-      { "id": "opera/opera" },
-      { "id": "oracle/jre" },
-      { "id": "tor/tor-browser" },
-      { "id": "turbobrowsers/facebook" },
-      { "id": "turbobrowsers/turbo-firefox" },
-      { "id": "turbobrowsers/twitter" }
     ]
   },
   {
@@ -425,7 +437,7 @@
     },
     "apps": [
       {
-	"id": "selenium/selenium-grid" 
+	    "id": "selenium/selenium-grid",
         "featured": true
       },
       {
@@ -433,7 +445,7 @@
       },
       {
         "id": "selenium/python-ide"
-      },
+      }
     ],
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
