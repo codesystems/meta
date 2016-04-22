@@ -431,7 +431,7 @@
       "padded": true
     },
     "description": "Online Selenium Grid with unlimited automated testing.",
-    "h2": "Online Selenium Grid with unlimited automated testing.",
+    "h2": "Run an entire Selenium Grid on a single Windows desktop. Unlimited Selenium automated testing supporting all versions of Chrome, Firefox, and IE.",
     "drm": {
       "minLevel": 261
     },
