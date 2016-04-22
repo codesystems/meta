@@ -1,3 +1,5 @@
+### Home
+
 The Turbo Selenium Sandbox offers a solution for automated browser testing by running [Selenium](/selenium) tests on a variety of browser containers all on your local machine with minimal setup. This lets you avoid the pain and expense of setting up and maintaining a local Selenium Grid.
 
 Running your Selenium tests in the Selenium Sandbox is almost exactly like running them on a local Selenium Grid. What does this mean for you?
@@ -6,6 +8,8 @@ Running your Selenium tests in the Selenium Sandbox is almost exactly like runni
 2. You can use native Selenium APIs - no extra dependencies or libraries to import.
 
 The key difference is that Turbo.net takes care of all the Selenium infrastructure and networking for you! Point your tests to the Selenium hub at **http://localhost:4444/wd/hub** and the Selenium Sandbox will automatically provision, stream, and start the test on the required browser.
+
+### Getting Started
 
 If you've used a different cloud-based testing service in the past, check out the **Adapting Tests from Other Services** section.
 
