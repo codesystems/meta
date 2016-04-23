@@ -17,7 +17,6 @@
   {
     "id": "home-chat",
     "name": "Home Chat",
-    "iconSrc": "/homepage/icons/channels/chat.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -42,7 +41,6 @@
   {
     "id": "home-productivity",
     "name": "Home Productivity",
-    "iconSrc": "/homepage/icons/channels/productivity.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -88,7 +86,6 @@
   {
     "id": "home-tools",
     "name": "Home Tools",
-    "iconSrc": "/homepage/icons/channels/tools.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -113,7 +110,6 @@
   {
     "id": "home-web",
     "name": "Home Web",
-    "iconSrc": "/homepage/icons/channels/browsers.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -122,24 +118,36 @@
     "drm": {
       "minLevel": 259
     },
+    "subsections": [
+      {
+        "name": "Browsers",
+        "apps": [
+          { "id": "apple/safari" },
+          { "id": "google/chrome" },
+          { "id": "mozilla/firefox" },
+          { "id": "mozilla/firefox-mobile" },
+          { "id": "opera/opera" },
+          { "id": "tor/tor-browser" },
+          { "id": "turbobrowsers/facebook" },
+          { "id": "turbobrowsers/turbo-firefox" },
+          { "id": "turbobrowsers/twitter" }
+        ]
+      },
+      {
+        "name": "Add-On Runtimes",
+        "apps": [
+          { "id": "microsoft/dotnet" },
+          { "id": "microsoft/silverlight" },
+          { "id": "oracle/jre" }
+        ]
+      }
+    ],
     "apps":[
-      { "id": "apple/safari" },
-      { "id": "google/chrome" },
-      { "id": "microsoft/dotnet" },
-      { "id": "microsoft/silverlight" },
-      { "id": "mozilla/firefox" },
-      { "id": "mozilla/firefox-mobile" },
-      { "id": "opera/opera" },
-      { "id": "oracle/jre" },
-      { "id": "tor/tor-browser" },
-      { "id": "turbobrowsers/facebook" },
-      { "id": "turbobrowsers/turbo-firefox" },
-      { "id": "turbobrowsers/twitter" }
     ]
   },
   {
-    "id": "pro-developer", "name": "Professional Developer",
-    "iconSrc": "/homepage/icons/channels/developer.png",
+    "id": "pro-developer", 
+    "name": "Professional Developer",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -155,7 +163,7 @@
       { "id": "apache/tomcat" },
       { "id": "aspnet/aspnet5" },
       { "id": "aspnet/aspnet5-dev" },
-      { "id": "codeblocks/codeblocks" }
+      { "id": "codeblocks/codeblocks" },
       { "id": "git/git" },
       { "id": "grails/grails" },
       { "id": "jetty/jetty" },
@@ -173,7 +181,6 @@
   {
     "id": "pro-productivity",
     "name": "Professional Productivity",
-    "iconSrc": "/homepage/icons/channels/productivity.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -190,7 +197,6 @@
   {
     "id": "pro-tools",
     "name": "Professional Tools",
-    "iconSrc": "/homepage/icons/channels/tools.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -211,7 +217,6 @@
   {
     "id": "pro-web",
     "name": "Professional Web",
-    "iconSrc": "/homepage/icons/channels/browsers.png",
     "iconSettings": {
       "backgroundColor": "#9898A0",
       "padded": true
@@ -234,8 +239,6 @@
   {
     "id": "browsers",
     "name": "Browser Sandbox",
-    "iconSrc": "/homepage/icons/channels/browsers.png",
-    "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
     "backgroundColor": "#147a38",
     "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
     "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
@@ -263,8 +266,6 @@
   {
     "id": "sql",
     "name": "SQL Sandbox",
-    "iconSrc": "/homepage/icons/channels/sql.png",
-    "backgroundSrc": "/images/repos/backgrounds/sql.png",
     "backgroundColor": "#A81F1E",
     "description": "Run SQL Server, SQL Management Studio (SSMS), and other databases in containers.",
     "drm": {
@@ -305,8 +306,6 @@
   {
     "id": "citrix",
     "name": "Citrix Sandbox",
-    "iconSrc": "/homepage/icons/channels/citrix.png",
-    "backgroundSrc": "/images/repos/backgrounds/citrix.png",
     "backgroundColor": "#0A3662",
     "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
     "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
@@ -343,12 +342,10 @@
   {
     "id": "vmware",
     "name": "VMware Administrator",
-    "iconSrc": "/homepage/icons/channels/vmwarelogo.png",
     "iconSettings": {
       "backgroundColor": "#35653B",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/vmwarebackground.png",
     "backgroundColor": "#64A25B",
     "description": "VMware administration essentials, including admin consoles and every vSphere client version.",
     "h2": "Run a VMware Horizon Administration Console and any vSphere client version instantly, plus top tools for VMware administrators.",
@@ -390,12 +387,10 @@
   {
     "id": "powershell",
     "name": "PowerShell Sandbox",
-    "iconSrc": "/homepage/icons/channels/powershelllogo.png",
     "iconSettings": {
       "backgroundColor": "#99d6ff",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/powershellbackground.png",
     "backgroundColor": "#011247",
     "description": "Development tools for the professional PowerShell developer.",
     "h2": "Run a specific version of PowerShell instantly, plus access top tools for PowerShell developers.",
@@ -431,21 +426,31 @@
   {
     "id": "selenium",
     "name": "Selenium Sandbox",
-    "iconSrc": "/homepage/icons/channels/selenium.png",
     "iconSettings": {
       "backgroundColor": "#1b7e45",
       "padded": true
     },
-    "backgroundSrc": "/images/repos/backgrounds/sandbox.png",
     "description": "Online Selenium Grid with unlimited automated testing.",
-    "h2": "Online Selenium Grid with unlimited automated testing.",
+    "h2": "Run an entire Selenium Grid on a single Windows desktop. Selenium automated testing for all versions of Chrome, Firefox, and IE.",
     "drm": {
       "minLevel": 261
     },
     "apps": [
-      { "id": "selenium/selenium-grid" }
+      {
+	    "id": "selenium/selenium-grid",
+        "featured": true
+      },
+      {
+        "id": "selenium/selenium-ide"
+      },
+      {
+        "id": "selenium/python-ide"
+      }
     ],
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
-    "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:"
+    "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
+	  "h3Featured": "Selenium Grid",
+    "h3": "Selenium IDEs",
+    "preserveOrder": true
   }
 ]
