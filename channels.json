@@ -259,7 +259,7 @@
     ],
     "relatedPaths":["selenium", "sql"],
     "isSandbox": false,
-    "helpHtml": "Click on a browser to launch it instantly.<br><br>Press <strong>Add</strong> to customize with plugins, automatic URL redirection, IP routing rules and network restrictions, permissions settings, ad blocking, and other options.<br><br>Deploy custom browser containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
+    "helpHtml": "Click on a browser to launch it instantly.<br><br><strong>Save</strong> to My Applications to customize with plugins, automatic URL redirection, IP routing rules and network restrictions, permissions settings, ad blocking, and other options.<br><br>Deploy custom browser containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
     "preserveOrder": true,
     "notAffiliatedWith":"Microsoft, Google, Mozilla, Apple or Opera"
