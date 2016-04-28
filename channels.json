@@ -9,7 +9,8 @@
       { "id": "mozilla/firefox-base" },
       { "id": "microsoft/vcredist" },
       { "id": "spoonbrew/clean" },
-      { "id": "spoonbrew/base" }
+      { "id": "spoonbrew/base" },
+      { "id": "oracle/jre-core" }
     ],
     "channelIds":[],
     "hidden": true
@@ -259,9 +260,10 @@
     ],
     "relatedPaths":["selenium", "sql"],
     "isSandbox": false,
-    "helpHtml": "Click on a browser to launch it instantly.<br><br>Press <strong>Add</strong> to customize with plugins, automatic URL redirection, IP routing rules and network restrictions, permissions settings, ad blocking, and other options.<br><br>Deploy custom browser containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
+    "helpHtml": "Click on a browser to launch it instantly.<br><br><strong>Save</strong> to My Applications to customize with plugins, automatic URL redirection, IP routing rules and network restrictions, permissions settings, ad blocking, and other options.<br><br>Deploy custom browser containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
-    "preserveOrder": true
+    "preserveOrder": true,
+    "notAffiliatedWith":"Microsoft, Google, Mozilla, Apple or Opera"
   },
   {
     "id": "sql",
@@ -301,7 +303,8 @@
     "helpHtml": "Click to launch any database server instantly. You can run multiple database servers to form a cluster.<br/><br/>Launch appropriate management clients and tools.<br/><br/>Connect to the database server using the following credentials:<br/><br/><strong>Server name:</strong> localhost<br/><strong>Auth:</strong> SQL Server<br/><strong>Login:</strong> sa<br/><strong>Password:</strong> password1",
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
     "h3Featured": "SQL Server and SQL Server Management Studio (SSMS)",
-    "h3": "Other SQL Databases"
+    "h3": "Other SQL Databases",
+    "notAffiliatedWith":"Microsoft"
   },
   {
     "id": "citrix",
@@ -337,7 +340,8 @@
       }
     ],
     "helpHtml": "Click <strong>Run</strong> to launch any version of Citrix Receiver instantly.<br><br>Multiple versions can be run side-by-side with no installs.<br><br>Press <strong>Add</strong> to apply IP network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
-    "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:"
+    "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
+    "notAffiliatedWith":"Citrix"
   },
   {
     "id": "vmware",
@@ -381,7 +385,8 @@
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
     "h3Featured": "vSphere Clients and Horizon Administration Console",
-    "h3": "Other VMware Administration Tools"
+    "h3": "Other VMware Administration Tools",
+    "notAffiliatedWith":"VMware"
   },
   
   {
@@ -421,7 +426,8 @@
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
     "h3Featured": "PowerShell Versions",
     "h3": "PowerShell Editors",
-    "preserveOrder": true
+    "preserveOrder": true,
+    "notAffiliatedWith":"Microsoft"
   },
   {
     "id": "selenium",
@@ -441,16 +447,57 @@
         "featured": true
       },
       {
+        "id": "selenium/selenium-grid-free",
+        "featured": true,
+        "exemptLatestRelease": true
+      },
+      {
         "id": "selenium/selenium-ide"
       },
       {
         "id": "selenium/python-ide"
+      },
+      {
+        "id": "selenium/ie-selenium",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-grid-node",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-grid-plugin",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-server-standalone",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-grid-plugin",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-ie-driver",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-chrome-driver",
+        "exemptLatestRelease": true,
+        "hidden": true
       }
     ],
     "helpHtml": "Click <strong>Run</strong> to launch applications instantly online.<br><br>Press <strong>Add</strong> to customize IP routing rules and network restrictions, permissions settings, and other options.<br><br>Deploy containers directly to your desktop, push to your organization, or publish to XenApp and VMware servers.",
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
-	  "h3Featured": "Selenium Grid",
+	"h3Featured": "Selenium Grid",
     "h3": "Selenium IDEs",
-    "preserveOrder": true
+    "preserveOrder": true,
+    "notAffiliatedWith":"Selenium"
   }
 ]
