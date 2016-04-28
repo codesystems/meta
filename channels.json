@@ -9,7 +9,8 @@
       { "id": "mozilla/firefox-base" },
       { "id": "microsoft/vcredist" },
       { "id": "spoonbrew/clean" },
-      { "id": "spoonbrew/base" }
+      { "id": "spoonbrew/base" },
+      { "id": "oracle/jre-core" }
     ],
     "channelIds":[],
     "hidden": true
@@ -443,6 +444,10 @@
     "apps": [
       {
 	    "id": "selenium/selenium-grid",
+        "featured": true
+      },
+      {
+        "id": "selenium/selenium-grid-free",
         "featured": true,
         "exemptLatestRelease": true
       },
@@ -454,6 +459,36 @@
       },
       {
         "id": "selenium/ie-selenium",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-grid-node",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-grid-plugin",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-server-standalone",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-grid-plugin",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-ie-driver",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
+        "id": "selenium/selenium-chrome-driver",
         "exemptLatestRelease": true,
         "hidden": true
       }
