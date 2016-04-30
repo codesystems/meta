@@ -4,7 +4,7 @@ Launch appropriate management clients and tools.
 
 Connect to the database server using the following credentials:
 
-**Server name:** localhost
-**Auth:** SQL Server
-**Login:** sa
-**Password:** password1
+**Server name:** localhost  
+**Auth:** SQL Server  
+**Login:** sa  
+**Password:** password1  
