@@ -10,7 +10,8 @@
       { "id": "microsoft/vcredist" },
       { "id": "spoonbrew/clean" },
       { "id": "spoonbrew/base" },
-      { "id": "oracle/jre-core" }
+      { "id": "oracle/jre-core" },
+      { "id": "selenium/selenium-grid-free" }
     ],
     "channelIds":[],
     "hidden": true
