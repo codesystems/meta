@@ -84,7 +84,11 @@
         "apps": [
           {
             "id": "google/chromium-canary",
-	    "id": "mozilla/firefox-mobile",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          },
+          {
+	        "id": "mozilla/firefox-mobile",
             "expandReleases": true,
             "exemptLatestRelease": true
           }
@@ -93,9 +97,11 @@
       {
         "name": "Nightly and Beta Builds",
         "apps": [
+          {
             "id": "mozilla/firefox-nightly",
             "expandReleases": true,
             "exemptLatestRelease": true
+          }
         ]
       }
     ],
