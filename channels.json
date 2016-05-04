@@ -109,33 +109,41 @@
     "apps": [
       {
         "id": "sqlserver/sqlserver2012-express",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
       {
         "id": "sqlserver/sqlserver2014-express",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
       {
         "id": "sqlserver/sqlserver2014-localdb",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
       {
         "id": "sqlserver/ssms2012",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
       {
         "id": "sqlserver/ssms2014",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true,
         "exemptLatestRelease": true
       },
       {
-        "id": "mariadb/mariadb"
+        "id": "mariadb/mariadb",
+        "group": "Other SQL Databases"
       },
       {
-        "id": "mongodb/mongo"
+        "id": "mongodb/mongo",
+        "group": "Other SQL Databases"
       },
       {
-        "id": "mysql/mysql"
+        "id": "mysql/mysql",
+        "group": "Other SQL Databases"
       }
     ],
     "relatedPaths": [
@@ -207,27 +215,33 @@
     "apps": [
       {
         "id": "vmware/vsphereclient",
+        "group": "vSphere Clients and Horizon Administration Console",
         "featured": true,
         "expandReleases": true,
         "exemptLatestRelease": true
       },
       {
         "id": "vmware/vsphereclient-web",
+        "group": "vSphere Clients and Horizon Administration Console",
         "featured": true
       },
       {
         "id": "vmware/horizonadmin",
+        "group": "vSphere Clients and Horizon Administration Console",
         "featured": true
       },
       {
         "id": "sysinternals/bginfo",
-        "exemptLatestRelease": true
+        "exemptLatestRelease": true,
+        "group": "Other VMware Administration Tools"
       },
       {
-        "id": "sysinternals/logparser"
+        "id": "sysinternals/logparser",
+        "group": "Other VMware Administration Tools"
       },
       {
-        "id": "sysinternals/sysinternals"
+        "id": "sysinternals/sysinternals",
+        "group": "Other VMware Administration Tools"
       }
     ],
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
@@ -251,21 +265,26 @@
     "apps": [
       {
         "id": "microsoft/powershell",
+        "group": "PowerShell Versions",
         "featured": true,
         "expandReleases": true,
         "exemptLatestRelease": true
       },
       {
-        "id": "dell/powergui"
+        "id": "dell/powergui",
+        "group": "PowerShell Editors"
       },
       {
-        "id": "npp/notepadplusplus"
+        "id": "npp/notepadplusplus",
+        "group": "PowerShell Editors"
       },
       {
-        "id": "atom/atom"
+        "id": "atom/atom",
+        "group": "PowerShell Editors"
       },
       {
-        "id": "sublimetext/sublimetext"
+        "id": "sublimetext/sublimetext",
+        "group": "PowerShell Editors"
       }
     ],
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
@@ -289,18 +308,22 @@
     "apps": [
       {
         "id": "selenium/selenium-grid",
+        "group": "Selenium Grid",
         "featured": true
       },
       {
         "id": "selenium/selenium-grid-free",
+        "group": "Selenium Grid",
         "featured": true,
         "exemptLatestRelease": true
       },
       {
-        "id": "selenium/selenium-ide"
+        "id": "selenium/selenium-ide",
+        "group": "Selenium IDEs"
       },
       {
-        "id": "selenium/python-ide"
+        "id": "selenium/python-ide",
+        "group": "Selenium IDEs"
       },
       {
         "id": "selenium/ie-selenium",
