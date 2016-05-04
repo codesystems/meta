@@ -27,15 +27,83 @@
       "exemptLatestRelease": true
     },
     "expandReleases": true,
-    "apps": [
-       { "id": "microsoft/ie" },
-       { "id": "google/chrome" },
-       { "id": "mozilla/firefox" },
-       { "id": "google/chromium-canary" },
-       { "id": "mozilla/firefox-mobile" },
-       { "id": "apple/safari" },
-       { "id": "opera/opera" },
-       { "id": "mozilla/firefox-nightly" }
+    "apps": [],
+    "subsections": [
+      {
+        "name": "Internet Explorer",
+        "apps": [
+          {
+            "id": "microsoft/ie",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      },
+     {
+        "name": "Chrome",
+        "apps": [
+          {
+            "id": "google/chrome",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      },
+      {
+        "name": "Firefox",
+        "apps": [
+          {
+            "id": "mozilla/firefox",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      },
+      {
+        "name": "Opera",
+        "apps": [
+          {
+            "id": "opera/opera",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      },
+      {
+        "name": "Safari",
+        "apps": [
+          {
+            "id": "apple/safari",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      },
+      {
+        "name": "Mobile Browsers",
+        "apps": [
+          {
+            "id": "google/chromium-canary",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          },
+          {
+	        "id": "mozilla/firefox-mobile",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      },
+      {
+        "name": "Nightly and Beta Builds",
+        "apps": [
+          {
+            "id": "mozilla/firefox-nightly",
+            "expandReleases": true,
+            "exemptLatestRelease": true
+          }
+        ]
+      }
     ],
     "relatedPaths":["selenium", "sql"],
     "isSandbox": false,
