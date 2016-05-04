@@ -151,8 +151,6 @@
       "selenium"
     ],
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
-    "h3Featured": "SQL Server and SQL Server Management Studio (SSMS)",
-    "h3": "Other SQL Databases",
     "notAffiliatedWith": "Microsoft"
   },
   {
@@ -245,8 +243,6 @@
       }
     ],
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
-    "h3Featured": "vSphere Clients and Horizon Administration Console",
-    "h3": "Other VMware Administration Tools",
     "notAffiliatedWith": "VMware"
   },
   {
@@ -288,8 +284,6 @@
       }
     ],
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
-    "h3Featured": "PowerShell Versions",
-    "h3": "PowerShell Editors",
     "preserveOrder": true,
     "notAffiliatedWith": "Microsoft"
   },
@@ -362,8 +356,6 @@
       }
     ],
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
-    "h3Featured": "Selenium Grid",
-    "h3": "Selenium IDEs",
     "preserveOrder": true,
     "notAffiliatedWith": "Selenium"
   }
