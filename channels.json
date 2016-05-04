@@ -6,14 +6,26 @@
       "minLevel": 0
     },
     "apps": [
-      { "id": "mozilla/firefox-base" },
-      { "id": "microsoft/vcredist" },
-      { "id": "spoonbrew/clean" },
-      { "id": "spoonbrew/base" },
-      { "id": "oracle/jre-core" },
-      { "id": "selenium/selenium-grid-free" }
+      {
+        "id": "mozilla/firefox-base"
+      },
+      {
+        "id": "microsoft/vcredist"
+      },
+      {
+        "id": "spoonbrew/clean"
+      },
+      {
+        "id": "spoonbrew/base"
+      },
+      {
+        "id": "oracle/jre-core"
+      },
+      {
+        "id": "selenium/selenium-grid-free"
+      }
     ],
-    "channelIds":[],
+    "channelIds": [],
     "hidden": true
   },
   {
@@ -27,89 +39,64 @@
       "exemptLatestRelease": true
     },
     "expandReleases": true,
-    "apps": [],
-    "subsections": [
+    "apps": [
       {
-        "name": "Internet Explorer",
-        "apps": [
-          {
-            "id": "microsoft/ie",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
-      },
-     {
-        "name": "Chrome",
-        "apps": [
-          {
-            "id": "google/chrome",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
+        "id": "microsoft/ie",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Internet Explorer"
       },
       {
-        "name": "Firefox",
-        "apps": [
-          {
-            "id": "mozilla/firefox",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
+        "id": "google/chrome",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Chrome"
       },
       {
-        "name": "Opera",
-        "apps": [
-          {
-            "id": "opera/opera",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
+        "id": "mozilla/firefox",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Firefox"
       },
       {
-        "name": "Safari",
-        "apps": [
-          {
-            "id": "apple/safari",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
+        "id": "opera/opera",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Opera"
       },
       {
-        "name": "Mobile Browsers",
-        "apps": [
-          {
-            "id": "google/chromium-canary",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          },
-          {
-	        "id": "mozilla/firefox-mobile",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
+        "id": "apple/safari",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Safari"
       },
       {
-        "name": "Nightly and Beta Builds",
-        "apps": [
-          {
-            "id": "mozilla/firefox-nightly",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
+        "id": "google/chromium-canary",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Mobile Browsers"
+      },
+      {
+        "id": "mozilla/firefox-mobile",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Mobile Browsers"
+      },
+      {
+        "id": "mozilla/firefox-nightly",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Nightly and Beta Builds"
       }
     ],
-    "relatedPaths":["selenium", "sql"],
+    "relatedPaths": [
+      "selenium",
+      "sql"
+    ],
     "isSandbox": false,
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
     "preserveOrder": true,
-    "notAffiliatedWith":"Microsoft, Google, Mozilla, Apple or Opera"
+    "notAffiliatedWith": "Microsoft, Google, Mozilla, Apple or Opera"
   },
   {
     "id": "sql",
@@ -141,15 +128,24 @@
         "featured": true,
         "exemptLatestRelease": true
       },
-      { "id": "mariadb/mariadb" },
-      { "id": "mongodb/mongo" },
-      { "id": "mysql/mysql" }
+      {
+        "id": "mariadb/mariadb"
+      },
+      {
+        "id": "mongodb/mongo"
+      },
+      {
+        "id": "mysql/mysql"
+      }
     ],
-    "relatedPaths":["browsers", "selenium"],
+    "relatedPaths": [
+      "browsers",
+      "selenium"
+    ],
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
     "h3Featured": "SQL Server and SQL Server Management Studio (SSMS)",
     "h3": "Other SQL Databases",
-    "notAffiliatedWith":"Microsoft"
+    "notAffiliatedWith": "Microsoft"
   },
   {
     "id": "citrix",
@@ -160,32 +156,40 @@
     "drm": {
       "minLevel": 261
     },
-    "apps": [],
-    "subsections": [
+    "apps": [
       {
-        "name": "Citrix Receiver",
-        "apps": [
-          {
-            "id": "citrix/receiver-web",
-            "expandReleases": true,
-            "exemptLatestRelease": true
-          }
-        ]
+        "id": "citrix/receiver-web",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Citrix Receiver"
       },
       {
-        "name": "Citrix Administrator",
-        "apps": [
-          { "id": "citrix/gotomeeting" },
-          { "id": "putty/putty" },
-          { "id": "sysinternals/bginfo" },
-          { "id": "sysinternals/logparser" },
-          { "id": "sysinternals/sysinternals" },
-          { "id": "controlup/controlupconsole" }
-        ]
+        "id": "citrix/gotomeeting",
+        "group": "Citrix Administrator"
+      },
+      {
+        "id": "putty/putty",
+        "group": "Citrix Administrator"
+      },
+      {
+        "id": "sysinternals/bginfo",
+        "group": "Citrix Administrator"
+      },
+      {
+        "id": "sysinternals/logparser",
+        "group": "Citrix Administrator"
+      },
+      {
+        "id": "sysinternals/sysinternals",
+        "group": "Citrix Administrator"
+      },
+      {
+        "id": "controlup/controlupconsole",
+        "group": "Citrix Administrator"
       }
     ],
     "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
-    "notAffiliatedWith":"Citrix"
+    "notAffiliatedWith": "Citrix"
   },
   {
     "id": "vmware",
@@ -225,13 +229,12 @@
       {
         "id": "sysinternals/sysinternals"
       }
-    ],    
+    ],
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
     "h3Featured": "vSphere Clients and Horizon Administration Console",
     "h3": "Other VMware Administration Tools",
-    "notAffiliatedWith":"VMware"
+    "notAffiliatedWith": "VMware"
   },
-  
   {
     "id": "powershell",
     "name": "PowerShell Sandbox",
@@ -264,12 +267,12 @@
       {
         "id": "sublimetext/sublimetext"
       }
-    ],    
+    ],
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
     "h3Featured": "PowerShell Versions",
     "h3": "PowerShell Editors",
     "preserveOrder": true,
-    "notAffiliatedWith":"Microsoft"
+    "notAffiliatedWith": "Microsoft"
   },
   {
     "id": "selenium",
@@ -285,7 +288,7 @@
     },
     "apps": [
       {
-	    "id": "selenium/selenium-grid",
+        "id": "selenium/selenium-grid",
         "featured": true
       },
       {
@@ -336,9 +339,9 @@
       }
     ],
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
-	"h3Featured": "Selenium Grid",
+    "h3Featured": "Selenium Grid",
     "h3": "Selenium IDEs",
     "preserveOrder": true,
-    "notAffiliatedWith":"Selenium"
+    "notAffiliatedWith": "Selenium"
   }
 ]
