@@ -164,6 +164,7 @@
     },
     "apps": [
       {
+        "id": "citrix/receiver"
         "id": "citrix/receiver-web",
         "expandReleases": true,
         "exemptLatestRelease": true,
