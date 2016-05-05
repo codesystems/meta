@@ -165,6 +165,12 @@
     "apps": [
       {
         "id": "citrix/receiver",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "featured": true,
+        "group": "Citrix Receiver"
+      },
+            {
         "id": "citrix/receiver-web",
         "expandReleases": true,
         "exemptLatestRelease": true,
