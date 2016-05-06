@@ -59,6 +59,11 @@
         "group": "Firefox"
       },
       {
+        "id": "mozilla/firefox-base",
+        "exemptLatestRelease": true,
+        "hidden": true
+      },
+      {
         "id": "opera/opera",
         "expandReleases": true,
         "exemptLatestRelease": true,
