@@ -74,13 +74,19 @@
         "id": "google/chromium-canary",
         "expandReleases": true,
         "exemptLatestRelease": true,
-        "group": "Mobile Browsers"
+        "group": "Nightly and Beta Builds"
       },
       {
         "id": "mozilla/firefox-mobile",
         "expandReleases": true,
         "exemptLatestRelease": true,
         "group": "Mobile Browsers"
+      },
+      {
+        "id": "mozilla/firefox-beta",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "group": "Nightly and Beta Builds"
       },
       {
         "id": "mozilla/firefox-nightly",
