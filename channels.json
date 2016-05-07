@@ -188,6 +188,10 @@
         "group": "Citrix Administrator"
       },
       {
+        "id": "xensource/xencenter",
+        "group": "Citrix Administrator"
+      },
+      {
         "id": "putty/putty",
         "group": "Citrix Administrator"
       },
