@@ -6,7 +6,7 @@
       "topics": [
         {
           "id": "what-is-turbo-net",
-          "name": "Getting Started"
+          "name": "What Is Turbo.net"
         },
         {
           "id": "create-a-new-turbo-container",
@@ -73,7 +73,12 @@
     {
       "id": "scripting",
       "name": "Scripting",
-      "topics": []
+      "topics": [
+        {
+          "id": "hello-world",
+          "name": "Hello World"
+        }
+      ]
     }
   ]
 }
