@@ -1,1 +1,1 @@
-On Turbo.net, navigate to Home.
+On Turbo.net, navigate to **Home**.
