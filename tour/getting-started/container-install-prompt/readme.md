@@ -1,1 +1,1 @@
-Click Cancel when prompted to install, we will do this in a later step.
+Click **Cancel** when prompted to install, we will do this in a later step.
