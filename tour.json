@@ -2,6 +2,7 @@
   "categories": [
     {
       "id": "getting-started",
+      "name": "Getting Started",
       "topics": [
         {
           "id": "what-is-turbo-net",
@@ -68,6 +69,11 @@
           "name": "Why use Turbo?"
         }
       ]
+    },
+    {
+      "id": "scripting",
+      "name": "Scripting",
+      "topics": []
     }
   ]
 }
