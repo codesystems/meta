@@ -1,4 +1,4 @@
-The applications can now be found in your start menu under Turbo.net.
+The applications can now be found in your start menu under **Turbo.net**.
 
 You can launch the applications to stream and use them.
 
