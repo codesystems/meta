@@ -9,60 +9,92 @@
           "name": "What Is Turbo.net"
         },
         {
-          "id": "create-a-new-turbo-container",
-          "name": "Create a new Turbo Container"
+          "id": "launch-turbo-net",
+          "name": "Launch Turbo.net"
         },
         {
-          "id": "verify-container-is-clean",
-          "name": "Verify Container is Clean"
+          "id": "signup-or-signin",
+          "name": "Login to Turbo.net"
         },
         {
-          "id": "remove-container",
-          "name": "Remove Container"
+          "id": "navigate-to-web-category",
+          "name": "Navigate to the Web category"
         },
         {
-          "id": "selective-isolation",
-          "name": "Selective Isolation"
+          "id": "run-firefox",
+          "name": "Run Firefox"
         },
         {
-          "id": "saving-container-state",
-          "name": "Saving Container State"
+          "id": "install-turbo-plugin",
+          "name": "Install the Turbo.net Plugin"
         },
         {
-          "id": "installing-applications-from-the-hub",
-          "name": "Installing Applications from the Hub"
+          "id": "firefox-launch",
+          "name": "Firefox Launches"
         },
         {
-          "id": "layered-architecture",
-          "name": "Layered Architecture"
+          "id": "save-to-dashboard",
+          "name": "Save to Dashboard"
         },
         {
-          "id": "side-by-side-versioning",
-          "name": "Side by Side Versioning"
+          "id": "container-install-prompt",
+          "name": "Cancel and Close Install Prompt"
         },
         {
-          "id": "legacy-application-support",
-          "name": "Legacy Application Support"
+          "id": "navigate-to-productivity-category",
+          "name": "Navigate to Productivity Category"
         },
         {
-          "id": "container-skinning",
-          "name": "Container Skinning"
+          "id": "add-applications",
+          "name": "Select and Add Applications"
         },
         {
-          "id": "zero-footprint-testing",
-          "name": "Zero Footprint Testing"
+          "id": "install-applications",
+          "name": "Install Applications"
         },
         {
-          "id": "migrate-containers-between-devices",
-          "name": "Migrate Containers Between Devices"
+          "id": "applications-install-to-start-menu",
+          "name": "Application Install in Start Menu"
         },
         {
-          "id": "turboscript-automation",
-          "name": "TurboScript Automation"
+          "id": "navigate-to-dashboard",
+          "name": "Navigate to Dashboard"
+        },
+                {
+          "id": "customize-firefox",
+          "name": "Customize Firefox"
         },
         {
-          "id": "import-thinapp-packages",
-          "name": "Import ThinApp Packages"
+          "id": "general-settings",
+          "name": "General Settings"
+        },
+        {
+          "id": "isolation-settings",
+          "name": "Isolation Settings"
+        },
+        {
+          "id": "network-settings",
+          "name": "Network Settings"
+        },
+                {
+          "id": "layers-settings",
+          "name": "Add Layers"
+        },
+        {
+          "id": "update-settings",
+          "name": "Updates"
+        },
+        {
+          "id": "install-updated-firefox",
+          "name": "Install updated Firefox"
+        },
+        {
+          "id": "custom-firefox-launch",
+          "name": "Application Stream"
+        },
+        {
+          "id": "custom-firefox-plugins",
+          "name": "Customized Application Settings"
         },
         {
           "id": "why-use-turbo",

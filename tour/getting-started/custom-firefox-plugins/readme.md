@@ -1,0 +1,1 @@
+When Firefox has launched, you can see Firefox has the updated plugins and settings.
