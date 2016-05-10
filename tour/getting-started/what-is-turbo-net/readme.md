@@ -8,6 +8,6 @@ Turbo containers are built on top of the Turbo Virtual Machine, an application v
 
     # Hello Turbo.net World!
     
-    # Each page will introduce provide instructions for
+    # Each page will provide instructions for
     # using Turbo Containers.
 
