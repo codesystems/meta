@@ -1,3 +1,3 @@
 Select any application you would like. 
 
-When complete click Add.
+When complete click **Add**.
