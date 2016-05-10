@@ -1,1 +1,1 @@
-Navigate to the Productivty category.
+Navigate to the **Productivty** category.
