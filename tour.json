@@ -86,19 +86,15 @@
         },
         {
           "id": "install-updated-firefox",
-          "name": "Install updated Firefox"
+          "name": "Install Updated Firefox"
         },
         {
           "id": "custom-firefox-launch",
-          "name": "Application Stream"
+          "name": "Stream Application"
         },
         {
           "id": "custom-firefox-plugins",
           "name": "Customized Application Settings"
-        },
-        {
-          "id": "why-use-turbo",
-          "name": "Why use Turbo?"
         }
       ]
     },
