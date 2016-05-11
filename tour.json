@@ -95,10 +95,6 @@
         {
           "id": "custom-firefox-plugins",
           "name": "Customized Application Settings"
-        },
-	{
-          "id": "begin-scripting",
-          "name": "Begin Scripting"
         }
       ]
     },
