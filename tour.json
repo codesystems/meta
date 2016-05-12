@@ -8,6 +8,10 @@
           "id": "what-is-turbo-net",
           "name": "What Is Turbo.net"
         },
+		        {
+          "id": "signup-or-signin",
+          "name": "Sign in to Turbo.net"
+        },
         {
           "id": "run-firefox",
           "name": "Run Firefox"
