@@ -267,8 +267,8 @@
     "id": "landesk",
     "name": "LANDESK Sandbox",
     "backgroundColor": "#0A3662",
-    "description": "Run a LANDESK Management Suite Console, plus top tools for LANDESK administrators.",
-    "h2": "Run LANDESK Management Suite Console instantly.",
+    "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
+    "h2": "Instantly run LANDESK Management Consoles.",
     "drm": {
       "minLevel": 261
     },
