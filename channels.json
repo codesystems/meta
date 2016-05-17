@@ -264,6 +264,59 @@
     "notAffiliatedWith": "VMware"
   },
   {
+    "id": "landesk",
+    "name": "LANDESK Sandbox",
+    "backgroundColor": "#0A3662",
+    "description": "Run a LANDESK Management Suite Console, plus top tools for LANDESK administrators.",
+    "h2": "Run LANDESK Management Suite Console instantly.",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [
+      {
+        "id": "landesk/ldms-console",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "featured": true,
+        "group": "LANDESK"
+      },
+      {
+        "id": "appsense/amconsole",
+        "group": "AppSense"
+      },
+      {
+        "id": "appsense/emconsole",
+        "group": "AppSense"
+      },
+      {
+        "id": "appsense/pmconsole",
+        "group": "AppSense"
+      },
+      {
+        "id": "microsoft/orca",
+        "group": "LANDESK Administrator"
+      },
+      {
+        "id": "instedit/insted",
+        "group": "LANDESK Administrator"
+      },
+      {
+        "id": "putty/putty",
+        "group": "LANDESK Administrator"
+      },
+      {
+        "id": "sysinternals/logparser",
+        "group": "LANDESK Administrator"
+      },
+      {
+        "id": "sysinternals/sysinternals",
+        "group": "LANDESK Administrator"
+      }
+    ],
+    "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
+    "notAffiliatedWith": "LANDESK"
+  },
+  {
     "id": "powershell",
     "name": "PowerShell Sandbox",
     "iconSettings": {
