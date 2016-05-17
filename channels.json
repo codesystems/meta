@@ -301,6 +301,14 @@
         "group": "LANDESK Administrator"
       },
       {
+        "id": "becyhome/becyicongrabber",
+        "group": "LANDESK Administrator"
+      },
+      {
+        "id": "microsoft/wilogutil",
+        "group": "LANDESK Administrator"
+      },
+      {
         "id": "npp/notepadplusplus",
         "group": "LANDESK Administrator"
       },
