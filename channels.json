@@ -278,51 +278,51 @@
         "expandReleases": true,
         "exemptLatestRelease": true,
         "featured": true,
-        "group": "LANDESK"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "appsense/amconsole",
-        "group": "AppSense"
+        "group": "AppSense Managers"
       },
       {
         "id": "appsense/emconsole",
-        "group": "AppSense"
+        "group": "AppSense Managers"
       },
       {
         "id": "appsense/pmconsole",
-        "group": "AppSense"
+        "group": "AppSense Managers"
       },
       {
         "id": "microsoft/orca",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "instedit/insted",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "becyhome/becyicongrabber",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "microsoft/wilogutil",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "npp/notepadplusplus",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "putty/putty",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "sysinternals/logparser",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "sysinternals/sysinternals",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       }
     ],
     "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
