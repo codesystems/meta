@@ -278,7 +278,7 @@
         "expandReleases": true,
         "exemptLatestRelease": true,
         "featured": true,
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Management Consoles"
       },
       {
         "id": "appsense/amconsole",
