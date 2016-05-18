@@ -268,7 +268,7 @@
     "name": "LANDESK Sandbox",
     "backgroundColor": "#0A3662",
     "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
-    "h2": "Instantly run LANDESK Management Consoles.",
+    "h2": "Run any LANDESK Management Console or AppSense Management Console instantly.",
     "drm": {
       "minLevel": 261
     },
@@ -326,7 +326,6 @@
       }
     ],
     "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
-    "notAffiliatedWith": "LANDESK"
   },
   {
     "id": "powershell",
