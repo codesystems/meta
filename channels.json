@@ -102,7 +102,7 @@
     "isSandbox": false,
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
     "preserveOrder": true,
-    "notAffiliatedWith": "Microsoft, Google, Mozilla, Apple or Opera"
+    "affiliationText": "Microsoft, Google, Mozilla, Apple or Opera"
   },
   {
     "id": "sql",
@@ -157,7 +157,7 @@
       "selenium"
     ],
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
-    "notAffiliatedWith": "Microsoft"
+    "affiliationText": "Microsoft"
   },
   {
     "id": "citrix",
@@ -213,7 +213,7 @@
       }
     ],
     "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
-    "notAffiliatedWith": "Citrix"
+    "affiliationText": "Citrix"
   },
   {
     "id": "vmware",
@@ -261,7 +261,7 @@
       }
     ],
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
-    "notAffiliatedWith": "VMware"
+    "affiliationText": "VMware"
   },
   {
     "id": "landesk",
@@ -326,6 +326,8 @@
       }
     ],
     "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
+    "affiliationText": "LANDESK",
+    "partner": true
   },
   {
     "id": "powershell",
@@ -367,7 +369,7 @@
     ],
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
     "preserveOrder": true,
-    "notAffiliatedWith": "Microsoft"
+    "affiliationText": "Microsoft"
   },
   {
     "id": "selenium",
@@ -439,6 +441,6 @@
     ],
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
     "preserveOrder": true,
-    "notAffiliatedWith": "Selenium"
+    "affiliationText": "Selenium"
   }
 ]
