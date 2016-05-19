@@ -102,7 +102,7 @@
     "isSandbox": false,
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
     "preserveOrder": true,
-    "notAffiliatedWith": "Microsoft, Google, Mozilla, Apple or Opera"
+    "affiliationText": "Microsoft, Google, Mozilla, Apple or Opera"
   },
   {
     "id": "sql",
@@ -157,7 +157,7 @@
       "selenium"
     ],
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
-    "notAffiliatedWith": "Microsoft"
+    "affiliationText": "Microsoft"
   },
   {
     "id": "citrix",
@@ -213,7 +213,7 @@
       }
     ],
     "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
-    "notAffiliatedWith": "Citrix"
+    "affiliationText": "Citrix"
   },
   {
     "id": "vmware",
@@ -261,7 +261,73 @@
       }
     ],
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
-    "notAffiliatedWith": "VMware"
+    "affiliationText": "VMware"
+  },
+  {
+    "id": "landesk",
+    "name": "LANDESK Sandbox",
+    "backgroundColor": "#0A3662",
+    "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
+    "h2": "Run any LANDESK Management Console or AppSense Management Console instantly.",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [
+      {
+        "id": "landesk/ldms-console",
+        "expandReleases": true,
+        "exemptLatestRelease": true,
+        "featured": true,
+        "group": "LANDESK Management Consoles"
+      },
+      {
+        "id": "appsense/amconsole",
+        "group": "AppSense Managers"
+      },
+      {
+        "id": "appsense/emconsole",
+        "group": "AppSense Managers"
+      },
+      {
+        "id": "appsense/pmconsole",
+        "group": "AppSense Managers"
+      },
+      {
+        "id": "microsoft/orca",
+        "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "instedit/insted",
+        "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "becyhome/becyicongrabber",
+        "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "microsoft/wilogutil",
+        "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "npp/notepadplusplus",
+        "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "putty/putty",
+        "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "sysinternals/logparser",
+        "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "sysinternals/sysinternals",
+        "group": "LANDESK Administration Tools"
+      }
+    ],
+    "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
+    "affiliationText": "LANDESK",
+    "partner": true
   },
   {
     "id": "powershell",
@@ -303,7 +369,7 @@
     ],
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
     "preserveOrder": true,
-    "notAffiliatedWith": "Microsoft"
+    "affiliationText": "Microsoft"
   },
   {
     "id": "selenium",
@@ -375,6 +441,6 @@
     ],
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
     "preserveOrder": true,
-    "notAffiliatedWith": "Selenium"
+    "affiliationText": "Selenium"
   }
 ]
