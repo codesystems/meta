@@ -20,9 +20,6 @@
       },
       {
         "id": "oracle/jre-core"
-      },
-      {
-        "id": "selenium/selenium-grid"
       }
     ],
     "channelIds": [],
@@ -386,10 +383,6 @@
       },
       {
         "id": "selenium/selenium-grid-node",
-        "hidden": true
-      },
-      {
-        "id": "selenium/selenium-grid-plugin",
         "hidden": true
       },
       {
