@@ -20,9 +20,6 @@
       },
       {
         "id": "oracle/jre-core"
-      },
-      {
-        "id": "selenium/selenium-grid-free"
       }
     ],
     "channelIds": [],
@@ -369,11 +366,6 @@
     "apps": [
       {
         "id": "selenium/selenium-grid",
-        "group": "Selenium Grid",
-        "featured": true
-      },
-      {
-        "id": "selenium/selenium-grid-free",
         "group": "Selenium Grid",
         "featured": true
       },
