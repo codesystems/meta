@@ -20,9 +20,6 @@
       },
       {
         "id": "oracle/jre-core"
-      },
-      {
-        "id": "selenium/selenium-grid-free"
       }
     ],
     "channelIds": [],
@@ -36,62 +33,52 @@
     "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
     "drm": {
       "minLevel": 261,
-      "exemptLatestRelease": true
     },
     "expandReleases": true,
     "apps": [
       {
         "id": "microsoft/ie",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Internet Explorer"
       },
       {
         "id": "google/chrome",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Chrome"
       },
       {
         "id": "mozilla/firefox",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Firefox"
       },
       {
         "id": "opera/opera",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Opera"
       },
       {
         "id": "apple/safari",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Safari"
       },
       {
         "id": "google/chromium-canary",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Nightly and Beta Builds"
       },
       {
         "id": "mozilla/firefox-mobile",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Mobile Browsers"
       },
       {
         "id": "mozilla/firefox-beta",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Nightly and Beta Builds"
       },
       {
         "id": "mozilla/firefox-nightly",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "group": "Nightly and Beta Builds"
       }
     ],
@@ -137,7 +124,6 @@
         "id": "sqlserver/ssms2014",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true,
-        "exemptLatestRelease": true
       },
       {
         "id": "mariadb/mariadb",
@@ -172,14 +158,12 @@
       {
         "id": "citrix/receiver",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "featured": true,
         "group": "Citrix Receiver"
       },
             {
         "id": "citrix/receiver-web",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "featured": true,
         "group": "Citrix Receiver Web"
       },
@@ -233,8 +217,7 @@
         "id": "vmware/vsphereclient",
         "group": "vSphere Clients and Horizon Administration Console",
         "featured": true,
-        "expandReleases": true,
-        "exemptLatestRelease": true
+        "expandReleases": true
       },
       {
         "id": "vmware/vsphereclient-web",
@@ -248,7 +231,6 @@
       },
       {
         "id": "sysinternals/bginfo",
-        "exemptLatestRelease": true,
         "group": "Other VMware Administration Tools"
       },
       {
@@ -276,7 +258,6 @@
       {
         "id": "landesk/ldms-console",
         "expandReleases": true,
-        "exemptLatestRelease": true,
         "featured": true,
         "group": "LANDESK Management Consoles"
       },
@@ -347,8 +328,7 @@
         "id": "microsoft/powershell",
         "group": "PowerShell Versions",
         "featured": true,
-        "expandReleases": true,
-        "exemptLatestRelease": true
+        "expandReleases": true
       },
       {
         "id": "dell/powergui",
@@ -390,12 +370,6 @@
         "featured": true
       },
       {
-        "id": "selenium/selenium-grid-free",
-        "group": "Selenium Grid",
-        "featured": true,
-        "exemptLatestRelease": true
-      },
-      {
         "id": "selenium/selenium-ide",
         "group": "Selenium IDEs"
       },
@@ -405,37 +379,26 @@
       },
       {
         "id": "selenium/ie-selenium",
-        "exemptLatestRelease": true,
         "hidden": true
       },
       {
         "id": "selenium/selenium-grid-node",
-        "exemptLatestRelease": true,
-        "hidden": true
-      },
-      {
-        "id": "selenium/selenium-grid-plugin",
-        "exemptLatestRelease": true,
         "hidden": true
       },
       {
         "id": "selenium/selenium-server-standalone",
-        "exemptLatestRelease": true,
         "hidden": true
       },
       {
         "id": "selenium/selenium-grid-plugin",
-        "exemptLatestRelease": true,
         "hidden": true
       },
       {
         "id": "selenium/selenium-ie-driver",
-        "exemptLatestRelease": true,
         "hidden": true
       },
       {
         "id": "selenium/selenium-chrome-driver",
-        "exemptLatestRelease": true,
         "hidden": true
       }
     ],
