@@ -275,35 +275,35 @@
       },
       {
         "id": "microsoft/orca",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       },
       {
         "id": "instedit/insted",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       },
       {
         "id": "becyhome/becyicongrabber",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       },
       {
         "id": "microsoft/wilogutil",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       },
       {
         "id": "npp/notepadplusplus",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       },
       {
         "id": "putty/putty",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       },
       {
         "id": "sysinternals/logparser",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       },
       {
         "id": "sysinternals/sysinternals",
-        "group": "LANDESK Administration Tools"
+        "group": "LANDESK Administrator"
       }
     ],
     "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
