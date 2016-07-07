@@ -247,7 +247,7 @@
   },
   {
     "id": "landesk",
-    "name": "LANDESK Sandbox",
+    "name": "LANDESK Administrator",
     "backgroundColor": "#0A3662",
     "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
     "h2": "Run any LANDESK Management Console or AppSense Management Console instantly.",
@@ -275,35 +275,35 @@
       },
       {
         "id": "microsoft/orca",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "instedit/insted",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "becyhome/becyicongrabber",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "microsoft/wilogutil",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "npp/notepadplusplus",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "putty/putty",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "sysinternals/logparser",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       },
       {
         "id": "sysinternals/sysinternals",
-        "group": "LANDESK Administrator"
+        "group": "LANDESK Administration Tools"
       }
     ],
     "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
