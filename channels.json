@@ -147,7 +147,7 @@
   },
   {
     "id": "citrix",
-    "name": "Citrix Sandbox",
+    "name": "Citrix",
     "backgroundColor": "#0A3662",
     "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
     "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
@@ -201,7 +201,7 @@
   },
   {
     "id": "vmware",
-    "name": "VMware Administrator",
+    "name": "VMware",
     "iconSettings": {
       "backgroundColor": "#35653B",
       "padded": true
@@ -247,7 +247,7 @@
   },
   {
     "id": "landesk",
-    "name": "LANDESK Administrator",
+    "name": "LANDESK",
     "backgroundColor": "#0A3662",
     "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
     "h2": "Run any LANDESK Management Console or AppSense Management Console instantly.",
@@ -306,13 +306,13 @@
         "group": "LANDESK Administration Tools"
       }
     ],
-    "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
+    "twitterShareText": "Run popular LANDESK administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
     "affiliationText": "LANDESK",
     "partner": true
   },
   {
     "id": "powershell",
-    "name": "PowerShell Sandbox",
+    "name": "PowerShell",
     "iconSettings": {
       "backgroundColor": "#99d6ff",
       "padded": true
