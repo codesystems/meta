@@ -414,14 +414,30 @@
       "padded": true
     },
     "backgroundColor": "#0A3662",
-    "description": "---",
-    "h2": "---",
+    "description": "Run ERP applications instantly",
     "drm": {
       "minLevel": 261
     },
-    "apps": [],
-    "twitterShareText": "---",
-    "affiliationText": "---"
+    "apps": [
+      {
+        "id": "hyperion/hyperion",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "kronos/kronos",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "adp/adpvantage",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "siebel/siebel",
+        "group": "ERP Applications"
+      }
+    ],
+    "twitterShareText": "Run ERP applications instantly online with Turbo ERP by @turbohq:",
+    "affiliationText": "Hyperion, Kronos, ADP, or Siebel"
   },
   {
     "id": "microfocus",
@@ -431,13 +447,17 @@
       "padded": true
     },
     "backgroundColor": "#0A3662",
-    "description": "---",
-    "h2": "---",
+    "description": "Run popular Micro Focus applications instantly.",
     "drm": {
       "minLevel": 261
     },
-    "apps": [],
-    "twitterShareText": "---",
-    "affiliationText": "---"
+    "apps": [
+      {
+        "id": "microfocus/groupwise",
+        "group": "Micro Focus"
+      }
+    ],
+    "twitterShareText": "Run Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
+    "affiliationText": "Micro Focus"
   }
 ]
