@@ -405,5 +405,31 @@
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Selenium"
+  },
+  {
+    "id": "erp",
+    "name": "ERP",
+    "backgroundColor": "#0A3662",
+    "description": "---",
+    "h2": "---",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [],
+    "twitterShareText": "---",
+    "affiliationText": "---"
+  },
+  {
+    "id": "microfocus",
+    "name": "Micro Focus",
+    "backgroundColor": "#0A3662",
+    "description": "---",
+    "h2": "---",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [],
+    "twitterShareText": "---",
+    "affiliationText": "---"
   }
 ]
