@@ -422,6 +422,10 @@
   {
     "id": "microfocus",
     "name": "Micro Focus",
+    "iconSettings": {
+      "backgroundColor": "#013668",
+      "padded": true
+    },
     "backgroundColor": "#0A3662",
     "description": "---",
     "h2": "---",
