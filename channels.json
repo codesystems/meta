@@ -420,19 +420,7 @@
     },
     "apps": [
       {
-        "id": "hyperion/hyperion",
-        "group": "ERP Applications"
-      },
-      {
-        "id": "kronos/kronos",
-        "group": "ERP Applications"
-      },
-      {
         "id": "adp/adpvantage",
-        "group": "ERP Applications"
-      },
-      {
-        "id": "siebel/siebel",
         "group": "ERP Applications"
       },
       {
@@ -440,7 +428,19 @@
         "group": "ERP Applications"
       },
       {
-        "id": "oracle/jdedwards",
+        "id": "hp/hp-quality-center",
+        "group": "HP Quality Center"
+      },
+      {
+        "id": "hyperion/hyperion",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "jdedwards/jdedwards",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "kronos/kronos",
         "group": "ERP Applications"
       },
       {
@@ -450,27 +450,35 @@
       {
         "id": "oracle/oracle-e-business-suite-client",
         "group": "ERP Applications"
+      },
+      {
+        "id": "sap/sap-gui",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "siebel/siebel",
+        "group": "ERP Applications"
       }
     ],
     "twitterShareText": "Run ERP applications instantly online with Turbo ERP by @turbohq:",
-    "affiliationText": "Hyperion, Kronos, ADP, or Siebel"
+    "affiliationText": "ADP, Callidus, Hewlett Packard, Hyperion, Kronos, Oracle, or Siebel"
   },
   {
     "id": "microfocus",
-    "name": "Micro Focus",
+    "name": "GroupWise",
     "iconSettings": {
       "backgroundColor": "#013668",
       "padded": true
     },
     "backgroundColor": "#0A3662",
-    "description": "Run popular Micro Focus applications instantly.",
+    "description": "Run popular GroupWise applications instantly.",
     "drm": {
       "minLevel": 261
     },
     "apps": [
       {
         "id": "microfocus/groupwise",
-        "group": "Micro Focus"
+        "group": "GroupWise Clients"
       }
     ],
     "twitterShareText": "Run Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
