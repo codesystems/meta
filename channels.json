@@ -457,10 +457,10 @@
       }
     ],
     "twitterShareText": "Run ERP applications instantly online with Turbo ERP by @turbohq:",
-    "affiliationText": "ADP, Callidus, Hewlett Packard, Hyperion, Kronos, Oracle, or Siebel"
+    "affiliationText": "ADP, Callidus, Hewlett Packard, Kronos, or Oracle"
   },
   {
-    "id": "microfocus",
+    "id": "groupwise",
     "name": "GroupWise",
     "iconSettings": {
       "backgroundColor": "#013668",
@@ -477,7 +477,7 @@
         "group": "GroupWise Clients"
       }
     ],
-    "twitterShareText": "Run Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
-    "affiliationText": "Micro Focus"
+    "twitterShareText": "Run GroupWise applications instantly online with Turbo GroupWise Sandbox by @turbohq:",
+    "affiliationText": "GroupWise"
   }
 ]
