@@ -434,6 +434,22 @@
       {
         "id": "siebel/siebel",
         "group": "ERP Applications"
+      },
+      {
+        "id": "callidus/callidus",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "oracle/jdedwards",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "oracle/oracle-business-intelligence",
+        "group": "ERP Applications"
+      },
+      {
+        "id": "oracle/oracle-e-business-suite-client",
+        "group": "ERP Applications"
       }
     ],
     "twitterShareText": "Run ERP applications instantly online with Turbo ERP by @turbohq:",
