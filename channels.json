@@ -414,7 +414,7 @@
       "padded": true
     },
     "backgroundColor": "#0A3662",
-    "description": "Run ERP applications instantly",
+    "description": "Run ERP clients instantly",
     "drm": {
       "minLevel": 261
     },
@@ -456,7 +456,7 @@
         "group": "ERP Clients"
       }
     ],
-    "twitterShareText": "Run ERP applications instantly online with Turbo ERP by @turbohq:",
+    "twitterShareText": "Run ERP clients instantly online with Turbo ERP by @turbohq:",
     "affiliationText": "ADP, Callidus, Hewlett Packard, Kronos, or Oracle"
   },
   {
