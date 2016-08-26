@@ -421,39 +421,39 @@
     "apps": [
       {
         "id": "adp/adpvantage",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "callidus/callidus",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "hyperion/hyperion",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "jdedwards/jdedwards",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "kronos/kronos",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "oracle/oracle-business-intelligence",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "oracle/oracle-e-business-suite-client",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "sap/sap-gui",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       },
       {
         "id": "siebel/siebel",
-        "group": "ERP Applications"
+        "group": "ERP Clients"
       }
     ],
     "twitterShareText": "Run ERP applications instantly online with Turbo ERP by @turbohq:",
