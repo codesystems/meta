@@ -32,7 +32,7 @@
     "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
     "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
     "drm": {
-      "minLevel": 261,
+      "minLevel": 261
     },
     "expandReleases": true,
     "apps": [
@@ -123,7 +123,7 @@
       {
         "id": "sqlserver/ssms2014",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
-        "featured": true,
+        "featured": true
       },
       {
         "id": "mariadb/mariadb",
@@ -147,7 +147,7 @@
   },
   {
     "id": "citrix",
-    "name": "Citrix Sandbox",
+    "name": "Citrix",
     "backgroundColor": "#0A3662",
     "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
     "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
@@ -201,7 +201,7 @@
   },
   {
     "id": "vmware",
-    "name": "VMware Administrator",
+    "name": "VMware",
     "iconSettings": {
       "backgroundColor": "#35653B",
       "padded": true
@@ -247,7 +247,7 @@
   },
   {
     "id": "landesk",
-    "name": "LANDESK Sandbox",
+    "name": "LANDESK",
     "backgroundColor": "#0A3662",
     "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
     "h2": "Run any LANDESK Management Console or AppSense Management Console instantly.",
@@ -306,13 +306,13 @@
         "group": "LANDESK Administration Tools"
       }
     ],
-    "twitterShareText": "Run popular LANDesk administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
+    "twitterShareText": "Run popular LANDESK administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
     "affiliationText": "LANDESK",
     "partner": true
   },
   {
     "id": "powershell",
-    "name": "PowerShell Sandbox",
+    "name": "PowerShell",
     "iconSettings": {
       "backgroundColor": "#99d6ff",
       "padded": true
@@ -405,5 +405,79 @@
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Selenium"
+  },
+  {
+    "id": "erp",
+    "name": "ERP",
+    "iconSettings": {
+      "backgroundColor": "#666",
+      "padded": true
+    },
+    "backgroundColor": "#0A3662",
+    "description": "Run ERP clients instantly",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [
+      {
+        "id": "adp/adpvantage",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "callidus/callidus",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "hyperion/hyperion",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "jdedwards/jdedwards",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "kronos/kronos",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "oracle/oracle-business-intelligence",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "oracle/oracle-e-business-suite-client",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "sap/sap-gui",
+        "group": "ERP Clients"
+      },
+      {
+        "id": "siebel/siebel",
+        "group": "ERP Clients"
+      }
+    ],
+    "twitterShareText": "Run ERP clients instantly online with Turbo ERP by @turbohq:",
+    "affiliationText": "ADP, Callidus, Hewlett Packard, Kronos, or Oracle"
+  },
+  {
+    "id": "groupwise",
+    "name": "GroupWise",
+    "iconSettings": {
+      "backgroundColor": "#013668",
+      "padded": true
+    },
+    "backgroundColor": "#0A3662",
+    "description": "Run popular GroupWise applications instantly.",
+    "drm": {
+      "minLevel": 261
+    },
+    "apps": [
+      {
+        "id": "microfocus/groupwise",
+        "group": "GroupWise Clients"
+      }
+    ],
+    "twitterShareText": "Run GroupWise applications instantly online with Turbo GroupWise Sandbox by @turbohq:",
+    "affiliationText": "GroupWise"
   }
 ]
