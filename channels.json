@@ -409,10 +409,6 @@
   {
     "id": "erp",
     "name": "ERP",
-    "iconSettings": {
-      "backgroundColor": "#666",
-      "padded": true
-    },
     "backgroundColor": "#0A3662",
     "description": "Run ERP clients instantly",
     "drm": {
