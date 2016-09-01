@@ -90,6 +90,7 @@
       "selenium",
       "sql"
     ],
+    "categories": ["web"],
     "isSandbox": false,
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
     "preserveOrder": true,
@@ -150,6 +151,7 @@
       "browsers",
       "selenium"
     ],
+    "categories": ["developer"],
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
     "affiliationText": "Microsoft"
   },
@@ -208,6 +210,7 @@
         "group": "Citrix Administrator"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
     "affiliationText": "Citrix"
   },
@@ -254,6 +257,7 @@
         "group": "Other VMware Administration Tools"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
     "affiliationText": "VMware"
   },
@@ -322,6 +326,7 @@
         "group": "LANDESK Administration Tools"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run popular LANDESK administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
     "affiliationText": "LANDESK",
     "partner": true
@@ -363,6 +368,7 @@
         "group": "PowerShell Editors"
       }
     ],
+    "categories": ["developer"],
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Microsoft"
@@ -418,6 +424,7 @@
         "hidden": true
       }
     ],
+    "categories": ["web"],
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Selenium"
@@ -468,6 +475,7 @@
         "group": "ERP Clients"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run ERP clients instantly online with Turbo ERP by @turbohq:",
     "affiliationText": "ADP, Callidus, Hewlett Packard, Kronos, or Oracle"
   },
@@ -489,6 +497,7 @@
         "group": "GroupWise Clients"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run GroupWise applications instantly online with Turbo GroupWise Sandbox by @turbohq:",
     "affiliationText": "GroupWise"
   }
