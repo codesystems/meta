@@ -29,6 +29,10 @@
     "id": "browsers",
     "name": "Browser Sandbox",
     "backgroundColor": "#147a38",
+    "iconSettings": {
+      "backgroundColor": "#1b7e45",
+      "padded": true
+    },
     "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
     "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
     "drm": {
@@ -86,6 +90,7 @@
       "selenium",
       "sql"
     ],
+    "categories": ["web"],
     "isSandbox": false,
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
     "preserveOrder": true,
@@ -95,6 +100,10 @@
     "id": "sql",
     "name": "SQL Sandbox",
     "backgroundColor": "#A81F1E",
+    "iconSettings": {
+      "backgroundColor": "#A81F1E",
+      "padded": true
+    },
     "description": "Run SQL Server, SQL Management Studio (SSMS), and other databases in containers.",
     "drm": {
       "minLevel": 261
@@ -142,6 +151,7 @@
       "browsers",
       "selenium"
     ],
+    "categories": ["developer"],
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
     "affiliationText": "Microsoft"
   },
@@ -149,6 +159,10 @@
     "id": "citrix",
     "name": "Citrix",
     "backgroundColor": "#0A3662",
+    "iconSettings": {
+      "backgroundColor": "#336699",
+      "padded": true
+    },
     "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
     "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
     "drm": {
@@ -196,6 +210,7 @@
         "group": "Citrix Administrator"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
     "affiliationText": "Citrix"
   },
@@ -242,6 +257,7 @@
         "group": "Other VMware Administration Tools"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
     "affiliationText": "VMware"
   },
@@ -249,6 +265,10 @@
     "id": "landesk",
     "name": "LANDESK",
     "backgroundColor": "#0A3662",
+    "iconSettings": {
+      "backgroundColor": "#4d94ff",
+      "padded": true
+    },
     "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
     "h2": "Run any LANDESK Management Console or AppSense Management Console instantly.",
     "drm": {
@@ -306,6 +326,7 @@
         "group": "LANDESK Administration Tools"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run popular LANDESK administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
     "affiliationText": "LANDESK",
     "partner": true
@@ -347,6 +368,7 @@
         "group": "PowerShell Editors"
       }
     ],
+    "categories": ["developer"],
     "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Microsoft"
@@ -402,17 +424,14 @@
         "hidden": true
       }
     ],
+    "categories": ["web"],
     "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Selenium"
   },
   {
     "id": "erp",
-    "name": "ERP",
-    "iconSettings": {
-      "backgroundColor": "#666",
-      "padded": true
-    },
+    "name": "ERP Clients",
     "backgroundColor": "#0A3662",
     "description": "Run ERP clients instantly",
     "drm": {
@@ -456,6 +475,7 @@
         "group": "ERP Clients"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run ERP clients instantly online with Turbo ERP by @turbohq:",
     "affiliationText": "ADP, Callidus, Hewlett Packard, Kronos, or Oracle"
   },
@@ -477,6 +497,7 @@
         "group": "GroupWise Clients"
       }
     ],
+    "categories": ["productivity"],
     "twitterShareText": "Run GroupWise applications instantly online with Turbo GroupWise Sandbox by @turbohq:",
     "affiliationText": "GroupWise"
   }
