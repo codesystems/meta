@@ -559,6 +559,6 @@
         "id": "microfocus/groupwise"
       }
     ],
-    "hidden": false
+    "hidden": true
   }
 ]
