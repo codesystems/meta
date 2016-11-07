@@ -505,7 +505,22 @@
     "id": "remoteapps",
     "apps": [
       {
-        "id": "microsoft/ie"
+        "id": "microsoft/ie:11"
+      },
+      {
+        "id": "microsoft/ie:10"
+      },
+      {
+        "id": "microsoft/ie:9"
+      },
+      {
+        "id": "microsoft/ie:8"
+      },
+      {
+        "id": "microsoft/ie:7"
+      },
+      {
+        "id": "microsoft/ie:6"
       },
       {
         "id": "tor/tor-browser"
