@@ -500,5 +500,65 @@
     "categories": ["productivity"],
     "twitterShareText": "Run GroupWise applications instantly online with Turbo GroupWise Sandbox by @turbohq:",
     "affiliationText": "GroupWise"
+  },
+  {
+    "id": "remoteapps",
+    "apps": [
+      {
+        "id": "microsoft/ie"
+      },
+      {
+        "id": "tor/tor-browser"
+      },
+      {
+        "id": "sqlserver/ssms2012"
+      },
+      {
+        "id": "sqlserver/ssms2014"
+      },
+      {
+        "id": "npp/notepadplusplus"
+      },
+      {
+        "id": "mozilla/firefox"
+      },
+      {
+        "id": "mozilla/firefox-beta"
+      },
+      {
+        "id": "mozilla/firefox-nightly"
+      },
+      {
+        "id": "mozilla/firefox-mobile"
+      },
+      {
+        "id": "google/chrome"
+      },
+      {
+        "id": "google/chromium-canary"
+      },
+      {
+        "id": "opera/opera"
+      },
+      {
+        "id": "7-zip/7-zip"
+      },
+      {
+        "id": "audacity/audacity"
+      },
+      {
+        "id": "spotify/spotify"
+      },
+      {
+        "id": "autodesk/fbxreview"
+      },
+      {
+        "id": "microfocus/reflection"
+      },
+      {
+        "id": "microfocus/groupwise"
+      }
+    ],
+    "hidden": false
   }
 ]
