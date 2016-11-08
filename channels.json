@@ -574,6 +574,9 @@
         "id": "microfocus/groupwise"
       }
     ],
+    "drm": {
+      "minLevel": 261
+    },
     "hidden": true
   }
 ]
