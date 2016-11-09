@@ -504,75 +504,43 @@
   {
     "id": "remoteapps",
     "apps": [
-      {
-        "id": "microsoft/ie:11"
-      },
-      {
-        "id": "microsoft/ie:10"
-      },
-      {
-        "id": "microsoft/ie:9"
-      },
-      {
-        "id": "microsoft/ie:8"
-      },
-      {
-        "id": "microsoft/ie:7"
-      },
-      {
-        "id": "microsoft/ie:6"
-      },
-      {
-        "id": "tor/tor-browser"
-      },
-      {
-        "id": "sqlserver/ssms2012"
-      },
-      {
-        "id": "sqlserver/ssms2014"
-      },
-      {
-        "id": "npp/notepadplusplus"
-      },
-      {
-        "id": "mozilla/firefox"
-      },
-      {
-        "id": "mozilla/firefox-beta"
-      },
-      {
-        "id": "mozilla/firefox-nightly"
-      },
-      {
-        "id": "mozilla/firefox-mobile"
-      },
-      {
-        "id": "google/chrome"
-      },
-      {
-        "id": "google/chromium-canary"
-      },
-      {
-        "id": "opera/opera"
-      },
-      {
-        "id": "7-zip/7-zip"
-      },
-      {
-        "id": "audacity/audacity"
-      },
-      {
-        "id": "spotify/spotify"
-      },
-      {
-        "id": "autodesk/fbxreview"
-      },
-      {
-        "id": "microfocus/reflection"
-      },
-      {
-        "id": "microfocus/groupwise"
-      }
+      { "id": "microsoft/ie:11" },
+      { "id": "microsoft/ie:10"},
+      { "id": "microsoft/ie:9"},
+      { "id": "microsoft/ie:8"},
+      { "id": "microsoft/ie:7"},
+      { "id": "microsoft/ie:6"},
+      { "id": "tor/tor-browser"},
+      { "id": "sqlserver/ssms2012"},
+      { "id": "sqlserver/ssms2014"},
+      { "id": "npp/notepadplusplus"},
+      { "id": "mozilla/firefox"},
+      { "id": "mozilla/firefox-beta"},
+      { "id": "mozilla/firefox-nightly"},
+      { "id": "mozilla/firefox-mobile"},
+      { "id": "google/chrome"},
+      { "id": "google/chromium-canary"},
+      { "id": "opera/opera"},
+      { "id": "7-zip/7-zip"},
+      { "id": "audacity/audacity"},
+      { "id": "spotify/spotify"},
+      { "id": "autodesk/fbxreview"},
+      { "id": "microfocus/reflection"},
+      { "id": "microfocus/groupwise"},
+      { "id": "libreoffice/libreoffice" },
+      { "id": "libreoffice/libreoffice-still" },
+      { "id": "libreoffice/base" },
+      { "id": "libreoffice/base-still" },
+      { "id": "libreoffice/calc" },
+      { "id": "libreoffice/calc-still" },
+      { "id": "libreoffice/draw" },
+      { "id": "libreoffice/draw-still" },
+      { "id": "libreoffice/impress" },
+      { "id": "libreoffice/impress-still" },
+      { "id": "libreoffice/math" },
+      { "id": "libreoffice/math-still" },
+      { "id": "libreoffice/writer" },
+      { "id": "libreoffice/writer-still" }
     ],
     "drm": {
       "minLevel": 261
