@@ -61,11 +61,6 @@
         "group": "Opera"
       },
       {
-        "id": "apple/safari",
-        "expandReleases": true,
-        "group": "Safari"
-      },
-      {
         "id": "google/chromium-canary",
         "expandReleases": true,
         "group": "Nightly and Beta Builds"
