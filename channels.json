@@ -34,7 +34,7 @@
       "padded": true
     },
     "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
-    "h2": "Run any browser instantly online. Click to run with no installs. Supports all versions of Chrome, Firefox, and IE.",
+    "h2": "Run any browser instantly online.",
     "drm": {
       "minLevel": 261
     },
