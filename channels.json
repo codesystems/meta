@@ -482,7 +482,7 @@
       "padded": true
     },
     "backgroundColor": "#F3F3F3",
-    "description": "Run popular GroupWise applications instantly.",
+    "description": "Run popular Micro Focus applications instantly.",
     "drm": {
       "minLevel": 261
     },
@@ -492,12 +492,8 @@
         "group": "Reflection"
       },
       {
-        "id": "microfocus/silk-runtime",
-        "group": "Silk Runtime"
-      },
-      {
         "id": "microfocus/groupwise",
-        "group": "GroupWise Clients"
+        "group": "GroupWise"
       }
     ],
     "categories": ["productivity"],
