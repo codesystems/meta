@@ -482,7 +482,7 @@
       "padded": true
     },
     "backgroundColor": "#F3F3F3",
-    "description": "Run popular Micro Focus applications instantly.",
+    "description": "Test drive Micro Focus applications instantly online or run containerized on your desktop.",
     "drm": {
       "minLevel": 261
     },
@@ -499,8 +499,9 @@
         "expandReleases": true
       }
     ],
+    "view": "details",
     "categories": ["productivity"],
-    "twitterShareText": "Run Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
+    "twitterShareText": "Test drive Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
     "affiliationText": "Micro Focus"
   },
   {
