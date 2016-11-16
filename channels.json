@@ -486,10 +486,12 @@
     "drm": {
       "minLevel": 261
     },
+    "expandReleases": true,
     "apps": [
       {
         "id": "microfocus/reflection",
-        "group": "Reflection"
+        "group": "Reflection",
+        "featured": true
       },
       {
         "id": "microfocus/groupwise",
