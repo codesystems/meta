@@ -475,26 +475,34 @@
     "affiliationText": "ADP, Callidus, Hewlett Packard, Kronos, or Oracle"
   },
   {
-    "id": "groupwise",
-    "name": "GroupWise",
+    "id": "microfocus",
+    "name": "Micro Focus",
     "iconSettings": {
-      "backgroundColor": "#013668",
+      "backgroundColor": "#199BD4",
       "padded": true
     },
-    "backgroundColor": "#0A3662",
+    "backgroundColor": "#F3F3F3",
     "description": "Run popular GroupWise applications instantly.",
     "drm": {
       "minLevel": 261
     },
     "apps": [
       {
+        "id": "microfocus/reflection",
+        "group": "Reflection"
+      },
+      {
+        "id": "microfocus/silk-runtime",
+        "group": "Silk Runtime"
+      },
+      {
         "id": "microfocus/groupwise",
         "group": "GroupWise Clients"
       }
     ],
     "categories": ["productivity"],
-    "twitterShareText": "Run GroupWise applications instantly online with Turbo GroupWise Sandbox by @turbohq:",
-    "affiliationText": "GroupWise"
+    "twitterShareText": "Run Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
+    "affiliationText": "Micro Focus"
   },
   {
     "id": "remoteapps",
