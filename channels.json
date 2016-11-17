@@ -81,6 +81,7 @@
         "group": "Nightly and Beta Builds"
       }
     ],
+    "view": "grid",
     "relatedPaths": [
       "selenium",
       "sql"
@@ -499,7 +500,6 @@
         "expandReleases": true
       }
     ],
-    "view": "details",
     "categories": ["productivity"],
     "twitterShareText": "Test drive Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
     "affiliationText": "Micro Focus",
