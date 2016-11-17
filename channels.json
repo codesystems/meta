@@ -105,12 +105,12 @@
     },
     "apps": [
       {
-        "id": "sqlserver/sqlserver2012-express",
+        "id": "sqlserver/sqlserver2014-express",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
       {
-        "id": "sqlserver/sqlserver2014-express",
+        "id": "sqlserver/sqlserver2012-express",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
@@ -120,12 +120,12 @@
         "featured": true
       },
       {
-        "id": "sqlserver/ssms2012",
+        "id": "sqlserver/ssms2014",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
       {
-        "id": "sqlserver/ssms2014",
+        "id": "sqlserver/ssms2012",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
