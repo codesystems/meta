@@ -148,6 +148,7 @@
       "selenium"
     ],
     "categories": ["developer"],
+    "preserveOrder": true,
     "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
     "affiliationText": "Microsoft"
   },
