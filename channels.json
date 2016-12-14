@@ -90,7 +90,7 @@
     "isSandbox": false,
     "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
     "preserveOrder": true,
-    "affiliationText": "Microsoft, Google, Mozilla, Apple or Opera"
+    "affiliationText": "Microsoft, Google, Mozilla or Opera"
   },
   {
     "id": "sql",
