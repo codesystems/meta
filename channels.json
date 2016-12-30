@@ -551,7 +551,8 @@
       { "id": "libreoffice/math" },
       { "id": "libreoffice/math-still" },
       { "id": "libreoffice/writer" },
-      { "id": "libreoffice/writer-still" }
+      { "id": "libreoffice/writer-still" },
+      { "id": "autodesk/inventor" }
     ],
     "drm": {
       "minLevel": 261
