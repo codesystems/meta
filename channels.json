@@ -121,6 +121,11 @@
         "featured": true
       },
       {
+        "id": "sqlserver/ssms2016",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)",
+        "featured": true
+      },
+      {
         "id": "sqlserver/ssms2014",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
