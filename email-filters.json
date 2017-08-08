@@ -1,5 +1,6 @@
 {
   "__comment": "Common personal resolved MX hostnames. Don't collect signup leads for these.",
+  "__comment": "Entries with * perform wildcard string comparison.",
   "consumerEmailMXRecords": [
     "126mx0*.mxmail.netease.com",
     "30939017.in*.mandrillapp.com",
@@ -60,6 +61,7 @@
   
   "__comment": "Disposable or temporary resolved MX hostnames. Block signups for these.",
   "__comment": "Populated in part from: yopmail.com/en, fakemailgenerator.com, mytrashmail.com, moakt.com/en/mail, guerrillamail.com",
+  "__comment": "Entries with * perform wildcard string comparison.",
   "invalidEmailMXRecords": [
     "9a0b662e7361f048a5a92751a7ae7e.pamx1.hotmail.com",
     "acai.mailsac.com",
