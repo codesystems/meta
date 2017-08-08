@@ -1,5 +1,5 @@
 {
-  "__comment": "Common personal email domains. Don't collect leads for these.",
+  "__comment": "Common personal email domains. Don't collect signup leads for these.",
   "consumerEmailDomains": [
     "10vpn.info",
     "126.com",
@@ -65,6 +65,8 @@
     "outlook.co.br",
     "outlook.com",
     "personalemailsamurai.com",
+    "protonmail.ch",
+    "protonmail.com",
     "qq.com",
     "rediffmail.com",
     "rocketmail.com",
@@ -121,7 +123,7 @@
     "zelx.de"
   ],
   
-  "__comment": "Disposable or temporary email domains. Block signups and leads for these.",
+  "__comment": "Disposable or temporary email domains. Block signups for these.",
   "__comment": "Populated in part from: yopmail.com/en, fakemailgenerator.com, mytrashmail.com, moakt.com/en/mail, guerrillamail.com",
   "invalidEmailDomains": [
     "10host.top",
@@ -266,10 +268,16 @@
     "zippymail.info"
   ],
   
-  "__comment": "Common keywords for disposable or temporary emails. Block signups and leads for these.",
-  "invalidEmailKeywords": [],
+  "__comment": "Common domain keywords for disposable or temporary emails. Don't collect signup leads for these.",
+  "invalidEmailKeywords": [
+    "mail",
+    "trash",
+    "junk",
+    "inbox",
+    "spam"
+  ],
   
-  "__comment": "Foreign email domains extensions. Don't collect leads for these.",
+  "__comment": "Foreign email domains extensions. Don't collect signup leads for these.",
   "foreignEmailExtensions": [
     "cn",
     "in",
