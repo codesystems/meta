@@ -2,6 +2,6 @@
 
 Thank you for signing up for the {{webinar_title}}!
 
-Link: {{webinar_url}}
+The event is scheduled for **{{webinar_date}}**.
 
-The {{webinar_title}} is scheduled for: **{{webinar_date}}**
+To join the event, visit the following link: [{{webinar_url}}]({{webinar_url}})
