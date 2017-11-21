@@ -140,6 +140,7 @@
     "einrot.com",
     "emailfake.ml",
     "emltmp.com",
+    "ether123.net",
     "ethereum1.top",
     "eyepaste.com",
     "fakeinbox.info",
@@ -338,7 +339,8 @@
     "yopmail.*",
     "zasod.com",
     "zipcad.com",
-    "zippymail.info"
+    "zippymail.info",
+    "zhorachu.com"
   ],
   
   "__comment": "Common domain keywords for disposable or temporary emails. Don't collect signup leads for these.",
