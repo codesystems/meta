@@ -2,6 +2,7 @@
   "__comment": "Common personal email domains and resolved MX hostnames. Don't collect signup leads for these.",
   "__comment": "Entries with * perform wildcard string comparison.",
   "consumerEmailDomains": [
+    "*.qq.com",
     "10vpn.info",
     "126.com",
     "163.com",
@@ -126,6 +127,7 @@
     "cebong.ga",
     "cebong.nl",
     "chammy.info",
+    "cock.com",
     "cocovpn.com",
     "cookiecooker.de",
     "cool.fr.nf",
@@ -157,6 +159,7 @@
     "fleckens.hu",
     "fmg-mail-*.fakemailgenerator.com",
     "fobsos.ml",
+    "fuck.com",
     "funnymail.de",
     "gameme.men",
     "gamil.com",
