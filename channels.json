@@ -106,37 +106,12 @@
     },
     "apps": [
       {
-        "id": "sqlserver/sqlserver2016-express",
+        "id": "sqlserver/sqlserver-express",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
       {
-        "id": "sqlserver/sqlserver2014-express",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)",
-        "featured": true
-      },
-      {
-        "id": "sqlserver/sqlserver2012-express",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)",
-        "featured": true
-      },
-      {
-        "id": "sqlserver/sqlserver2014-localdb",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)",
-        "featured": true
-      },
-      {
-        "id": "sqlserver/ssms2016",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)",
-        "featured": true
-      },
-      {
-        "id": "sqlserver/ssms2014",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)",
-        "featured": true
-      },
-      {
-        "id": "sqlserver/ssms2012",
+        "id": "sqlserver/ssms",
         "group": "SQL Server and SQL Server Management Studio (SSMS)",
         "featured": true
       },
@@ -532,8 +507,8 @@
       { "id": "microsoft/ie:7"},
       { "id": "microsoft/ie:6"},
       { "id": "tor/tor-browser"},
-      { "id": "sqlserver/ssms2012"},
-      { "id": "sqlserver/ssms2014"},
+      { "id": "sqlserver/ssms:2012.11.0.2100.60"},
+      { "id": "sqlserver/ssms:2014.12.0.2000.8"},
       { "id": "npp/notepadplusplus"},
       { "id": "mozilla/firefox"},
       { "id": "mozilla/firefox-beta"},
