@@ -509,7 +509,7 @@
       { "id": "tor/tor-browser"},
       { "id": "sqlserver/ssms:2012.11.0.2100.60"},
       { "id": "sqlserver/ssms:2014.12.0.2000.8"},
-      { "id": "sqlserver/ssms:2016.12.0.2000.8"},
+      { "id": "sqlserver/ssms:2016.13.016106.4"},
       { "id": "npp/notepadplusplus"},
       { "id": "mozilla/firefox"},
       { "id": "mozilla/firefox-beta"},
