@@ -539,7 +539,8 @@
       { "id": "libreoffice/math-still" },
       { "id": "libreoffice/writer" },
       { "id": "libreoffice/writer-still" },
-      { "id": "autodesk/inventor" }
+      { "id": "autodesk/inventor" },
+      { "id": "intel-test/photoshop" }
     ],
     "drm": {
       "minLevel": 261
