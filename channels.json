@@ -523,7 +523,7 @@
       { "id": "autodesk/fbxreview"},
       { "id": "microfocus/reflection"},
       { "id": "microfocus/groupwise"},
-      { "id": "microsoft/powerbi"},
+      { "id": "powerbi/powerbi"},
       { "id": "libreoffice/libreoffice" },
       { "id": "libreoffice/libreoffice-still" },
       { "id": "libreoffice/base" },
