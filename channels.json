@@ -28,13 +28,12 @@
   {
     "id": "browsers",
     "name": "Browser Sandbox",
-    "backgroundColor": "#147a38",
     "iconSettings": {
       "backgroundColor": "#1b7e45",
       "padded": true
     },
-    "description": "Run any browser online, including Chrome, Firefox, IE 8, IE 9, IE 10, and IE 11, and more.",
-    "h2": "Run any browser instantly online. Supports all release and beta versions of Chrome, Firefox, IE, and Opera.",
+    "description": "Run IE, Chrome, Firefox, and more on your Mac, PC, or iPad.",
+    "h2": "Run IE, Chrome, Firefox, and more on your Mac, PC, or iPad.",
     "drm": {
       "minLevel": 261
     },
