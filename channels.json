@@ -32,8 +32,8 @@
       "backgroundColor": "#1b7e45",
       "padded": true
     },
-    "description": "Run IE, Chrome, Firefox, and other PC browsers online on your Mac, PC, iPad and tablets.",
-    "h2": "Run IE, Chrome, Firefox, and other PC browsers online on your Mac, PC, iPad and tablets.",
+    "description": "Run IE, Chrome, Firefox, and other PC browsers online.",
+    "h2": "Run IE, Chrome, Firefox, and other PC browsers online.",
     "drm": {
       "minLevel": 261
     },
@@ -86,7 +86,7 @@
     ],
     "categories": ["web"],
     "isSandbox": false,
-    "twitterShareText": "Run any browser instantly with Turbo Browser Sandbox by @turbohq:",
+    "twitterShareText": "Running IE online with Turbo Browser Sandbox",
     "preserveOrder": true,
     "affiliationText": "Microsoft, Google, Mozilla or Opera"
   },
@@ -98,8 +98,8 @@
       "backgroundColor": "#A81F1E",
       "padded": true
     },
-    "description": "Run SQL Server, SSMS, and other databases online on your Mac, PC, iPad and tablets.",
-    "h2": "Run SQL Server, SSMS, and other databases online on your Mac, PC, iPad and tablets.",
+    "description": "Run SQL Server, SSMS, and other databases online.",
+    "h2": "Run SQL Server, SSMS, and other databases online.",
     "drm": {
       "minLevel": 261
     },
@@ -128,7 +128,7 @@
     ],
     "categories": ["data", "developer"],
     "preserveOrder": true,
-    "twitterShareText": "Run any version of SQL Server and SQL Management Studio instantly with Turbo SQL Sandbox by @turbohq:",
+    "twitterShareText": "Running SQL Server & SSMS online with Turbo SQL Sandbox",
     "affiliationText": "Microsoft"
   },
   {
