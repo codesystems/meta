@@ -167,27 +167,64 @@
       }
     ]
   },
-  {
+{
     "id": "ide",
     "name": "IDE Sandbox",
-    "description": "",
-    "metaDescription": "",
-    "metaTitle": "",
+    "description": "Run Eclipse, NetBeans, and other IDEs online.",
+    "h2": "Run Eclipse, NetBeans, and other IDEs online.",
+    "metaDescription": "Run Eclipse, NetBeans, and other IDEs online.",
+    "metaTitle": "Run Eclipse, NetBeans, and other IDEs online. - Learn to code in online development environments - IDE Sandbox - Turbo.net",
     "iconSettings": {
       "backgroundColor": "#1b7e45",
       "padded": true
     },
     "apps": [
       {
-        "id": "7-zip/7-zip",
-        "group": "Featured Apps",
+        "id": "eclipse/eclipse",
+        "group": "Popular Online Development Environments",
         "featured": true
       },
       {
-        "id": "7-zip/7-zip-console",
-        "group": "Other Apps"
+        "id": "oracle/netbeans",
+        "group": "Popular Online Development Environments",
+        "featured": true
+      },
+      {
+        "id": "jetbrains/intellij",
+        "group": "Other IDEs"
+      },
+      {
+        "id": "python/pythonidle",
+        "group": "Other IDEs"
+      },
+      {
+        "id": "jetbrains/intellij-ultimate",
+        "group": "Other IDEs"
+      },
+      {
+        "id": "microsoft/vscode",
+        "group": "Other IDEs"
+      },
+      {
+        "id": "codeblocks/codeblocks",
+        "group": "Other IDEs"
+      },
+      {
+        "id": "sharpdevelop/sharpdevelop",
+        "group": "Other IDEs"
+      },
+      {
+        "id": "adersoft/vbsedit",
+        "group": "Other IDEs"
+      },
+      {
+        "id": "smartkoders/codelite",
+        "group": "Other IDEs"
       }
-    ]
+    ],
+    "categories": ["developer"],
+    "preserveOrder": true,
+    "twitterShareText": "Running Eclipse and NetBeans IDEs online with Turbo IDE Sandbox",
   },
   {
     "id": "citrix",
