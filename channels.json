@@ -146,6 +146,50 @@
     "videoSrc": "https://www.youtube.com/embed/NxZrpPxEMhs?rel=0"
   },
   {
+    "id": "data",
+    "name": "Data Sandbox",
+    "description": "",
+    "metaDescription": "",
+    "metaTitle": "",
+    "iconSettings": {
+      "backgroundColor": "#1b7e45",
+      "padded": true
+    },
+    "apps": [
+      {
+        "id": "sqlserver/ssms-sqlserver",
+        "group": "SQL Server with SQL Server Management Studio (SSMS)",
+        "featured": true
+      },
+      {
+        "id": "sqlserver/ssms",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)"
+      }
+    ]
+  },
+  {
+    "id": "ide",
+    "name": "IDE Sandbox",
+    "description": "",
+    "metaDescription": "",
+    "metaTitle": "",
+    "iconSettings": {
+      "backgroundColor": "#1b7e45",
+      "padded": true
+    },
+    "apps": [
+      {
+        "id": "sqlserver/ssms-sqlserver",
+        "group": "SQL Server with SQL Server Management Studio (SSMS)",
+        "featured": true
+      },
+      {
+        "id": "sqlserver/ssms",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)"
+      }
+    ]
+  },
+  {
     "id": "citrix",
     "name": "Citrix",
     "backgroundColor": "#0A3662",
