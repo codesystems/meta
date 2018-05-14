@@ -157,13 +157,13 @@
     },
     "apps": [
       {
-        "id": "sqlserver/ssms-sqlserver",
-        "group": "SQL Server with SQL Server Management Studio (SSMS)",
+        "id": "7-zip/7-zip",
+        "group": "Featured Apps",
         "featured": true
       },
       {
-        "id": "sqlserver/ssms",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)"
+        "id": "7-zip/7-zip-console",
+        "group": "Other Apps"
       }
     ]
   },
@@ -179,13 +179,13 @@
     },
     "apps": [
       {
-        "id": "sqlserver/ssms-sqlserver",
-        "group": "SQL Server with SQL Server Management Studio (SSMS)",
+        "id": "7-zip/7-zip",
+        "group": "Featured Apps",
         "featured": true
       },
       {
-        "id": "sqlserver/ssms",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)"
+        "id": "7-zip/7-zip-console",
+        "group": "Other Apps"
       }
     ]
   },
