@@ -116,11 +116,11 @@
       },
       {
         "id": "sqlserver/ssms",
-        "group": "SQL Server Management Studio (SSMS)"
+        "group": "SQL Server and SQL Server Management Studio (SSMS)"
       },
       {
         "id": "sqlserver/sqlserver-express",
-        "group": "SQL Server"
+        "group": "SQL Server and SQL Server Management Studio (SSMS)"
       },
       {
         "id": "mariadb/mariadb",
