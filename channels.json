@@ -34,6 +34,8 @@
     },
     "description": "Run IE, Chrome, Firefox, and other PC browsers online.",
     "h2": "Run IE, Chrome, Firefox, and other PC browsers online.",
+    "metaTitle": "Run IE, Chrome, Firefox, and other PC browsers online - Browser Testing and IE on Mac - Browser Sandbox - Turbo.net",
+    "metaDescription": "Run IE, Chrome, Firefox, and other PC browsers online.",
     "drm": {
       "minLevel": 261
     },
@@ -88,7 +90,8 @@
     "isSandbox": false,
     "twitterShareText": "Running IE online with Turbo Browser Sandbox",
     "preserveOrder": true,
-    "affiliationText": "Microsoft, Google, Mozilla or Opera"
+    "affiliationText": "Microsoft, Google, Mozilla or Opera",
+    "videoSrc": "https://www.youtube.com/embed/o0FuZGXt0Og?rel=0"
   },
   {
     "id": "sql",
@@ -98,8 +101,10 @@
       "backgroundColor": "#A81F1E",
       "padded": true
     },
-    "description": "Run SQL Server, SSMS, and other databases online.",
-    "h2": "Run SQL Server, SSMS, and other databases online.",
+    "description": "Run SQL Server, SSMS, MySQL and other databases online.",
+    "h2": "Run SQL Server, SSMS, MySQL and other databases online.",
+    "metaDescription": "Run SQL Server, SSMS, MySQL, and more databases online.",
+    "metaTitle": "Run SQL Server, SSMS, MySQL, and more databases online - Learn SQL with online database environments - SQL Sandbox - Turbo.net",
     "drm": {
       "minLevel": 261
     },
@@ -108,6 +113,14 @@
         "id": "sqlserver/ssms-sqlserver",
         "group": "SQL Server with SQL Server Management Studio (SSMS)",
         "featured": true
+      },
+      {
+        "id": "sqlserver/ssms",
+        "group": "SQL Server Management Studio (SSMS)"
+      },
+      {
+        "id": "sqlserver/sqlserver-express",
+        "group": "SQL Server"
       },
       {
         "id": "mariadb/mariadb",
@@ -129,7 +142,8 @@
     "categories": ["data", "developer"],
     "preserveOrder": true,
     "twitterShareText": "Running SQL Server and SSMS online with Turbo SQL Sandbox",
-    "affiliationText": "Microsoft"
+    "affiliationText": "Microsoft",
+    "videoSrc": "https://www.youtube.com/embed/NxZrpPxEMhs?rel=0"
   },
   {
     "id": "citrix",
