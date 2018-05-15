@@ -170,7 +170,7 @@
       {
         "id": "powerbi/powerbi",
         "group": "Interactive Data Visualization BI Tools",
-        "featured": true
+        "featured": true,
         "featuredImageSrc": "/channels/data/powerbi-powerbi-thumbnail.png",
         "featuredDescription": "Power BI Desktop is a business analytics application that provides interactive visualizations."
       },
