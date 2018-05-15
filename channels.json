@@ -145,7 +145,8 @@
     "preserveOrder": true,
     "twitterShareText": "Running SQL Server and SSMS online with Turbo SQL Sandbox",
     "affiliationText": "Microsoft",
-    "videoSrc": "https://www.youtube.com/embed/NxZrpPxEMhs?rel=0"
+    "videoSrc": "https://www.youtube.com/embed/NxZrpPxEMhs?rel=0",
+    "theme": "dark"
   },
   {
     "id": "data",
