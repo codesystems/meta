@@ -117,6 +117,13 @@
         "featuredDescription": "A SQL Server Management Studio connected to a clean SQL Server 2016 Express database."
       },
       {
+        "id": "mysql/server-workbench",
+        "group": "MySQL Server with MySQL Workbench",
+        "featured": true,
+        "featuredImageSrc": "/channels/sql/server-workbench-thumbnail.png",
+        "featuredDescription": "MySQL Workbench connected to a clean MySQL database."
+      },
+      {
         "id": "sqlserver/ssms",
         "group": "SQL Server and SQL Server Management Studio (SSMS)"
       },
@@ -150,23 +157,29 @@
   },
   {
     "id": "data",
-    "name": "Data Sandbox",
-    "description": "",
-    "metaDescription": "",
-    "metaTitle": "",
+    "name": "Data Science",
+    "description": "Data Science",
+    "metaDescription": "Data Science",
+    "metaTitle": "Data Science",
     "iconSettings": {
-      "backgroundColor": "#1b7e45",
+      "backgroundColor": "#e0e0e0",
       "padded": true
     },
     "apps": [
       {
-        "id": "7-zip/7-zip",
-        "group": "Featured Apps",
+        "id": "powerbi/powerbi",
+        "group": "Interactive Data Visualization BI Tools",
         "featured": true
+        "featuredImageSrc": "/channels/data/powerbi-powerbi-thumbnail.png",
+        "featuredDescription": "Power BI Desktop is a business analytics application that provides interactive visualizations."
       },
       {
-        "id": "7-zip/7-zip-console",
-        "group": "Other Apps"
+        "id": "sqlserver/ssms",
+        "group": "Other Data Science Applications"
+      },
+      {
+        "id": "mysql/server-workbench",
+        "group": "Other Data Science Applications"
       }
     ]
   },
@@ -178,7 +191,7 @@
     "metaDescription": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
     "metaTitle": "Online IDEs - Run Eclipse, VS Code, NetBeans, and other IDEs online. - Learn to code in online development environments - Turbo.net",
     "iconSettings": {
-      "backgroundColor": "#1b7e45",
+      "backgroundColor": "#e0e0e0",
       "padded": true
     },
     "apps": [
