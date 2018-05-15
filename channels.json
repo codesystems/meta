@@ -185,17 +185,23 @@
       {
         "id": "eclipse/eclipse",
         "group": "Featured IDEs",
-        "featured": true
+        "featured": true,
+        "featuredImageSrc": "/channels/ide/eclipse-thumbnail.png",
+        "featuredDescription": "An open source IDE for Java application development."
       },
       {
         "id": "oracle/netbeans",
         "group": "Featured IDEs",
-        "featured": true
+        "featured": true,
+        "featuredImageSrc": "/channels/ide/netbeans-thumbnail.png",
+        "featuredDescription": "The official IDE for developing Java desktop, mobile, and online applications."
       },
       {
         "id": "microsoft/vscode",
         "group": "Featured IDEs",
-        "featured": true
+        "featured": true,
+        "featuredImageSrc": "/channels/ide/vscode-thumbnail.png",
+        "featuredDescription": "A lightweight IDE for building Node.js, JavaScript, and other web applications."
       },
       {
         "id": "jetbrains/intellij",
@@ -228,7 +234,7 @@
     ],
     "categories": ["developer"],
     "preserveOrder": true,
-    "twitterShareText": "Running Eclipse, VS Code, and NetBeans IDEs online on Turbo.net",
+    "twitterShareText": "Running Eclipse, VS Code, and NetBeans IDEs online on Turbo.net"
   },
   {
     "id": "citrix",
