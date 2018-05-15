@@ -112,7 +112,9 @@
       {
         "id": "sqlserver/ssms-sqlserver",
         "group": "SQL Server with SQL Server Management Studio (SSMS)",
-        "featured": true
+        "featured": true,
+        "featuredImageSrc": "/channels/sql/ssms-sqlserver-thumbnail.png",
+        "featuredDescription": "A SQL Server Management Studio connected to a clean SQL Server 2016 Express database."
       },
       {
         "id": "sqlserver/ssms",
@@ -167,7 +169,7 @@
       }
     ]
   },
-{
+  {
     "id": "ide",
     "name": "IDE Sandbox",
     "description": "Run Eclipse, NetBeans, and other IDEs online.",
@@ -182,12 +184,14 @@
       {
         "id": "eclipse/eclipse",
         "group": "Popular Online Development Environments",
-        "featured": true
+        "featured": true,
+        "featuredImageSrc": "/channels/ide/eclipse-thumbnail.png"
       },
       {
         "id": "oracle/netbeans",
         "group": "Popular Online Development Environments",
-        "featured": true
+        "featured": true,
+        "featuredImageSrc": "/channels/ide/netbeans-thumbnail.png"
       },
       {
         "id": "jetbrains/intellij",
