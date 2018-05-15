@@ -169,6 +169,7 @@
   },
 {
     "id": "ide",
+	"name": "Online IDEs",
     "description": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
     "h2": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
     "metaDescription": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
