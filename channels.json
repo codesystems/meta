@@ -169,11 +169,10 @@
   },
 {
     "id": "ide",
-    "name": "IDE Sandbox",
-    "description": "Run Eclipse, NetBeans, and other IDEs online.",
-    "h2": "Run Eclipse, NetBeans, and other IDEs online.",
-    "metaDescription": "Run Eclipse, NetBeans, and other IDEs online.",
-    "metaTitle": "Run Eclipse, NetBeans, and other IDEs online. - Learn to code in online development environments - IDE Sandbox - Turbo.net",
+    "description": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
+    "h2": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
+    "metaDescription": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
+    "metaTitle": "Online IDEs - Run Eclipse, VS Code, NetBeans, and other IDEs online. - Learn to code in online development environments - Turbo.net",
     "iconSettings": {
       "backgroundColor": "#1b7e45",
       "padded": true
@@ -225,7 +224,7 @@
     ],
     "categories": ["developer"],
     "preserveOrder": true,
-    "twitterShareText": "Running Eclipse and NetBeans IDEs online with Turbo IDE Sandbox",
+    "twitterShareText": "Running Eclipse, VS Code, and NetBeans IDEs online on Turbo.net",
   },
   {
     "id": "citrix",
