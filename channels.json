@@ -112,7 +112,9 @@
       {
         "id": "sqlserver/ssms-sqlserver",
         "group": "SQL Server with SQL Server Management Studio (SSMS)",
-        "featured": true
+        "featured": true,
+        "featuredImageSrc": "/channels/sql/ssms-sqlserver-thumbnail.png",
+        "featuredDescription": "A SQL Server Management Studio connected to a clean SQL Server 2016 Express database."
       },
       {
         "id": "sqlserver/ssms",
@@ -143,7 +145,8 @@
     "preserveOrder": true,
     "twitterShareText": "Running SQL Server and SSMS online with Turbo SQL Sandbox",
     "affiliationText": "Microsoft",
-    "videoSrc": "https://www.youtube.com/embed/NxZrpPxEMhs?rel=0"
+    "videoSrc": "https://www.youtube.com/embed/NxZrpPxEMhs?rel=0",
+    "theme": "dark"
   },
   {
     "id": "data",
@@ -167,7 +170,7 @@
       }
     ]
   },
-{
+  {
     "id": "ide",
 	"name": "Online IDEs",
     "description": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
