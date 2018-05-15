@@ -158,9 +158,10 @@
   {
     "id": "data",
     "name": "Data Science",
-    "description": "Data Science",
-    "metaDescription": "Data Science",
-    "metaTitle": "Data Science",
+    "description": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
+    "h2": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
+    "metaDescription": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
+    "metaTitle": "Online Data Science - Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online. - Turbo.net",
     "iconSettings": {
       "backgroundColor": "#e0e0e0",
       "padded": true
@@ -181,7 +182,10 @@
         "id": "mysql/server-workbench",
         "group": "Other Data Science Applications"
       }
-    ]
+    ],
+    "categories": ["data"],
+    "preserveOrder": true,
+    "twitterShareText": "Running Power BI Desktop, SSMS, MySQL, and other Data Science applications online on Turbo.net"	
   },
   {
     "id": "ide",
