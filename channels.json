@@ -163,7 +163,7 @@
     "metaDescription": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
     "metaTitle": "Online Data Science - Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online. - Turbo.net",
     "iconSettings": {
-      "backgroundColor": "#e0e0e0",
+      "backgroundColor": "#999999",
       "padded": true
     },
     "apps": [
@@ -195,7 +195,7 @@
     "metaDescription": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
     "metaTitle": "Online IDEs - Run Eclipse, VS Code, NetBeans, and other IDEs online. - Learn to code in online development environments - Turbo.net",
     "iconSettings": {
-      "backgroundColor": "#e0e0e0",
+      "backgroundColor": "#999999",
       "padded": true
     },
     "apps": [
@@ -250,7 +250,6 @@
       }
     ],
     "categories": ["developer"],
-    "preserveOrder": true,
     "twitterShareText": "Running Eclipse, VS Code, and NetBeans IDEs online on Turbo.net"
   },
   {
