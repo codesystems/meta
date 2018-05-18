@@ -111,14 +111,14 @@
     "apps": [
       {
         "id": "sqlserver/ssms-sqlserver",
-        "group": "SQL Server with SQL Server Management Studio (SSMS)",
+        "group": "Featured Online Databases",
         "featured": true,
         "featuredImageSrc": "/channels/sql/ssms-sqlserver-thumbnail.png",
         "featuredDescription": "A SQL Server Management Studio connected to a clean SQL Server 2016 Express database."
       },
       {
         "id": "mysql/server-workbench",
-        "group": "MySQL Server with MySQL Workbench",
+        "group": "Featured Online Databases",
         "featured": true,
         "featuredImageSrc": "/channels/sql/server-workbench-thumbnail.png",
         "featuredDescription": "MySQL Workbench connected to a clean MySQL database."
