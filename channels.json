@@ -132,16 +132,16 @@
         "group": "SQL Server and SQL Server Management Studio (SSMS)"
       },
       {
+        "id": "mysql/mysql",
+        "group": "MySQL Databases"
+      },
+      {
         "id": "mariadb/mariadb",
-        "group": "Other SQL Databases"
+        "group": "MySQL Databases"
       },
       {
         "id": "mongodb/mongo",
-        "group": "Other SQL Databases"
-      },
-      {
-        "id": "mysql/mysql",
-        "group": "Other SQL Databases"
+        "group": "NoSQL Databases"
       }
     ],
     "relatedPaths": [
