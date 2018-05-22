@@ -104,9 +104,10 @@
         "group": "Firefox Nightly"
       }
     ],
-    "relatedPaths": [
-      "selenium",
-      "sql"
+    "relatedChannels": [
+      "sql",
+      "ide",
+      "data"
     ],
     "categories": ["web"],
     "isSandbox": false,
@@ -124,7 +125,6 @@
       "padded": true
     },
     "description": "Run SQL Server, SSMS, MySQL and other databases online.",
-    "h2": "Run SQL Server, SSMS, MySQL and other databases online.",
     "metaDescription": "Run SQL Server, SSMS, MySQL, and more databases online.",
     "metaTitle": "Run SQL Server, SSMS, MySQL, and more databases online - Learn SQL with online database environments - SQL Sandbox - Turbo.net",
     "drm": {
@@ -166,9 +166,10 @@
         "group": "NoSQL Databases"
       }
     ],
-    "relatedPaths": [
+    "relatedChannels": [
       "browsers",
-      "selenium"
+      "ide",
+      "data"
     ],
     "categories": ["data", "developer"],
     "preserveOrder": true,
@@ -181,7 +182,6 @@
     "id": "data",
     "name": "Data Science",
     "description": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
-    "h2": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
     "metaDescription": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
     "metaTitle": "Online Data Science - Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online. - Turbo.net",
     "iconSettings": {
@@ -214,13 +214,17 @@
       }
     ],
     "categories": ["data"],
+    "relatedChannels": [
+      "browsers",
+      "ide",
+      "sql"
+    ],
     "twitterShareText": "Running Power BI Desktop, SSMS, MySQL, and other Data Science applications online on Turbo.net"	
   },
   {
     "id": "ide",
 	"name": "Online IDEs",
     "description": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
-    "h2": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
     "metaDescription": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
     "metaTitle": "Online IDEs - Run Eclipse, VS Code, NetBeans, and other IDEs online. - Learn to code in online development environments - Turbo.net",
     "iconSettings": {
@@ -279,6 +283,11 @@
       }
     ],
     "categories": ["developer"],
+    "relatedChannels": [
+      "sql",
+      "browsers",
+      "data"
+    ],
     "twitterShareText": "Running Eclipse, VS Code, and NetBeans IDEs online on Turbo.net"
   },
   {
@@ -290,7 +299,6 @@
       "padded": true
     },
     "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
-    "h2": "Run any version of Citrix Receiver online. Deploy containerized to desktops or XenApp servers.",
     "drm": {
       "minLevel": 261
     },
@@ -349,7 +357,6 @@
     },
     "backgroundColor": "#64A25B",
     "description": "VMware administration essentials, including admin consoles and every vSphere client version.",
-    "h2": "Run a VMware Horizon Administration Console and any vSphere client version instantly, plus top tools for VMware administrators.",
     "drm": {
       "minLevel": 261
     },
@@ -396,7 +403,6 @@
       "padded": true
     },
     "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
-    "h2": "Run any LANDESK Management Console or AppSense Management Console instantly.",
     "drm": {
       "minLevel": 261
     },
@@ -466,7 +472,6 @@
     },
     "backgroundColor": "#011247",
     "description": "Development tools for the professional PowerShell developer.",
-    "h2": "Run a specific version of PowerShell instantly, plus access top tools for PowerShell developers.",
     "drm": {
       "minLevel": 261
     },
@@ -507,7 +512,6 @@
       "padded": true
     },
     "description": "Online Selenium Grid with unlimited automated testing.",
-    "h2": "Run an entire Selenium Grid on a single Windows desktop. Selenium automated testing for all versions of Chrome, Firefox, and IE.",
     "drm": {
       "minLevel": 261
     },
