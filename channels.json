@@ -64,22 +64,17 @@
       {
         "id": "google/chromium-canary",
         "expandReleases": true,
-        "group": "Nightly and Beta Builds"
-      },
-      {
-        "id": "mozilla/firefox-mobile",
-        "expandReleases": true,
-        "group": "Mobile Browsers"
+        "group": "Chromium Canary"
       },
       {
         "id": "mozilla/firefox-beta",
         "expandReleases": true,
-        "group": "Nightly and Beta Builds"
+        "group": "Firefox Beta"
       },
       {
         "id": "mozilla/firefox-nightly",
         "expandReleases": true,
-        "group": "Nightly and Beta Builds"
+        "group": "Firefox Nightly"
       }
     ],
     "relatedPaths": [
@@ -91,7 +86,7 @@
     "twitterShareText": "Running IE online with Turbo Browser Sandbox",
     "preserveOrder": true,
     "affiliationText": "Microsoft, Google, Mozilla or Opera",
-    "videoSrc": "https://www.youtube.com/embed/o0FuZGXt0Og?rel=0"
+    "videoSrc": "https://www.youtube.com/watch?v=o0FuZGXt0Og&rel=0"
   },
   {
     "id": "sql",
@@ -152,7 +147,7 @@
     "preserveOrder": true,
     "twitterShareText": "Running SQL Server and SSMS online with Turbo SQL Sandbox",
     "affiliationText": "Microsoft",
-    "videoSrc": "https://www.youtube.com/embed/NxZrpPxEMhs?rel=0",
+    "videoSrc": "https://www.youtube.com/watch?v=NxZrpPxEMhs&rel=0",
     "theme": "dark"
   },
   {
@@ -175,6 +170,14 @@
         "featuredDescription": "Power BI Desktop is a business analytics application that provides interactive visualizations."
       },
       {
+        "id": "continuum/anaconda3",
+        "group": "Other Data Science Applications"
+      },
+      {
+        "id": "jetbrains/pycharm",
+        "group": "Other Data Science Applications"
+      },
+      {
         "id": "sqlserver/ssms",
         "group": "Other Data Science Applications"
       },
@@ -184,7 +187,6 @@
       }
     ],
     "categories": ["data"],
-    "preserveOrder": true,
     "twitterShareText": "Running Power BI Desktop, SSMS, MySQL, and other Data Science applications online on Turbo.net"	
   },
   {
