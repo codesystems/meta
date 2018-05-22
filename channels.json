@@ -43,6 +43,34 @@
     "apps": [
       {
         "id": "microsoft/ie",
+        "group": "Latest",
+        "featured": true,
+        "featuredImageSrc": "/channels/browsers/ie-thumbnail.png",
+        "featuredDescription": "Creating entirely new experiences on the web that are fast, beautiful, and perfect for touch."
+      },
+      {
+        "id": "google/chrome",
+        "group": "Latest",
+        "featured": true,
+        "featuredImageSrc": "/channels/browsers/chrome-thumbnail.png",
+        "featuredDescription": "Free web browser developed by Google, enhanced for performance and privacy."
+      },
+      {
+        "id": "mozilla/firefox",
+        "group": "Latest",
+        "featured": true,
+        "featuredImageSrc": "/channels/browsers/firefox-thumbnail.gif",
+        "featuredDescription": "Mozilla’s popular open source browser enhanced for performance, privacy, and functionality."
+      },
+      {
+        "id": "opera/opera",
+        "group": "Latest",
+        "featured": true,
+        "featuredImageSrc": "/channels/browsers/opera-thumbnail.png",
+        "featuredDescription": "A fast and free alternative web browser."
+      },
+      {
+        "id": "microsoft/ie",
         "expandReleases": true,
         "group": "Internet Explorer"
       },
