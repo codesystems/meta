@@ -35,6 +35,12 @@
     "description": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop.",
     "metaTitle": "Run IE, Chrome, Firefox, and other browsers online - Cross Browser Testing - Browser Sandbox - Turbo.net",
     "metaDescription": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop. Works on PC, Mac, iPad, and Android tablets. Thousands of configurable, ready-to-use apps available instantly.",
+    "useCases": [
+      "Cross-browser testing",
+      "Legacy web applications",
+      "Enterprise apps on Mac",
+      "Safe online browsing"
+    ],
     "drm": {
       "minLevel": 261
     },
@@ -127,6 +133,11 @@
     "description": "Run SQL Server, SSMS, MySQL and other databases online.",
     "metaDescription": "Run SQL Server, SSMS, MySQL, and more databases online.",
     "metaTitle": "Run SQL Server, SSMS, MySQL, and more databases online - Learn SQL with online database environments - SQL Sandbox - Turbo.net",
+    "useCases": [
+      "Learning SQL Server",
+      "Administering databases from mobile devices",
+      "Developing client/server applications"
+    ],
     "drm": {
       "minLevel": 261
     },
