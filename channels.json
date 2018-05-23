@@ -32,9 +32,9 @@
       "backgroundColor": "#1b7e45",
       "padded": true
     },
-    "description": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop.",
+    "description": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop or tablet.",
     "metaTitle": "Run IE, Chrome, Firefox, and other browsers online - Cross Browser Testing - Browser Sandbox - Turbo.net",
-    "metaDescription": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop. Works on PC, Mac, iPad, and Android tablets. Thousands of configurable, ready-to-use apps available instantly.",
+    "metaDescription": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop or tablet. Works on PC, Mac, iPad, and Android tablets. Thousands of configurable, ready-to-use apps available instantly.",
     "useCases": [
       "Cross-browser testing",
       "Legacy web applications",
@@ -325,17 +325,15 @@
       {
         "id": "citrix/receiver",
         "expandReleases": true,
-        "featured": true,
         "group": "Citrix Receiver"
       },
             {
         "id": "citrix/receiver-web",
         "expandReleases": true,
-        "featured": true,
         "group": "Citrix Receiver Web"
       },
       {
-        "id": "citrix/gotomeeting",
+        "id": "sysinternals/bginfo",
         "group": "Citrix Administrator"
       },
       {
@@ -343,11 +341,11 @@
         "group": "Citrix Administrator"
       },
       {
-        "id": "putty/putty",
+        "id": "controlup/controlupconsole",
         "group": "Citrix Administrator"
       },
       {
-        "id": "sysinternals/bginfo",
+        "id": "citrix/gotomeeting",
         "group": "Citrix Administrator"
       },
       {
@@ -355,15 +353,16 @@
         "group": "Citrix Administrator"
       },
       {
-        "id": "sysinternals/sysinternals",
+        "id": "putty/putty",
         "group": "Citrix Administrator"
       },
       {
-        "id": "controlup/controlupconsole",
+        "id": "sysinternals/sysinternals",
         "group": "Citrix Administrator"
       }
     ],
     "categories": ["productivity"],
+    "preserveOrder": true,
     "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
     "affiliationText": "Citrix"
   },
@@ -381,20 +380,17 @@
     },
     "apps": [
       {
+        "id": "vmware/horizonadmin",
+        "group": "vSphere Clients and Horizon Administration Console"
+      },
+      {
         "id": "vmware/vsphereclient",
         "group": "vSphere Clients and Horizon Administration Console",
-        "featured": true,
         "expandReleases": true
       },
       {
         "id": "vmware/vsphereclient-web",
-        "group": "vSphere Clients and Horizon Administration Console",
-        "featured": true
-      },
-      {
-        "id": "vmware/horizonadmin",
-        "group": "vSphere Clients and Horizon Administration Console",
-        "featured": true
+        "group": "vSphere Clients and Horizon Administration Console"
       },
       {
         "id": "sysinternals/bginfo",
@@ -410,6 +406,7 @@
       }
     ],
     "categories": ["productivity"],
+    "preserveOrder": true,
     "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
     "affiliationText": "VMware"
   },
@@ -429,7 +426,6 @@
       {
         "id": "landesk/ldms-console",
         "expandReleases": true,
-        "featured": true,
         "group": "LANDESK Management Consoles"
       },
       {
@@ -445,7 +441,7 @@
         "group": "AppSense Managers"
       },
       {
-        "id": "microsoft/orca",
+        "id": "becyhome/becyicongrabber",
         "group": "LANDESK Administration Tools"
       },
       {
@@ -453,11 +449,7 @@
         "group": "LANDESK Administration Tools"
       },
       {
-        "id": "becyhome/becyicongrabber",
-        "group": "LANDESK Administration Tools"
-      },
-      {
-        "id": "microsoft/wilogutil",
+        "id": "sysinternals/logparser",
         "group": "LANDESK Administration Tools"
       },
       {
@@ -465,19 +457,24 @@
         "group": "LANDESK Administration Tools"
       },
       {
-        "id": "putty/putty",
+        "id": "microsoft/orca",
         "group": "LANDESK Administration Tools"
       },
       {
-        "id": "sysinternals/logparser",
+        "id": "putty/putty",
         "group": "LANDESK Administration Tools"
       },
       {
         "id": "sysinternals/sysinternals",
         "group": "LANDESK Administration Tools"
+      },
+      {
+        "id": "microsoft/wilogutil",
+        "group": "LANDESK Administration Tools"
       }
     ],
     "categories": ["productivity"],
+    "preserveOrder": true,
     "twitterShareText": "Run popular LANDESK administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
     "affiliationText": "LANDESK",
     "partner": true
@@ -498,7 +495,6 @@
       {
         "id": "microsoft/powershell",
         "group": "PowerShell Versions",
-        "featured": true,
         "expandReleases": true
       },
       {
@@ -537,8 +533,7 @@
     "apps": [
       {
         "id": "selenium/selenium-grid",
-        "group": "Selenium Grid",
-        "featured": true
+        "group": "Selenium Grid"
       },
       {
         "id": "selenium/selenium-ide",
@@ -644,13 +639,11 @@
       {
         "id": "microfocus/reflection",
         "group": "Reflection",
-        "featured": true,
         "expandReleases": true
       },
       {
         "id": "microfocus/reflection-demo",
         "group": "Reflection",
-        "featured": true,
         "expandReleases": true
       },
       {
