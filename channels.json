@@ -215,6 +215,14 @@
         "id": "jetbrains/pycharm",
         "group": "Other Data Science Applications"
       },
+	  {
+		"id": "r-project/r",
+		"group": "Other Data Science Applications"
+	  },
+	  {
+		"id": "rstudio/rstudio",
+		"group": "Other Data Science Applications"
+	  },
       {
         "id": "sqlserver/ssms",
         "group": "Other Data Science Applications"
