@@ -205,13 +205,6 @@
     },
     "apps": [
       {
-        "id": "powerbi/powerbi",
-        "group": "Featured Data Science Applications",
-        "featured": true,
-        "featuredImageSrc": "/channels/data/powerbi-powerbi-thumbnail.png",
-        "featuredDescription": "Power BI Desktop is a business analytics application that provides interactive visualizations."
-      },
-      {
         "id": "continuum/anaconda3",
         "group": "Featured Data Science Applications",
         "featured": true,
@@ -219,20 +212,27 @@
         "featuredDescription": "Enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing."
       },
       {
+        "id": "powerbi/powerbi",
+        "group": "Featured Data Science Applications",
+        "featured": true,
+        "featuredImageSrc": "/channels/data/powerbi-powerbi-thumbnail.png",
+        "featuredDescription": "Power BI Desktop is a business analytics application that provides interactive visualizations."
+      },
+      {
         "id": "jetbrains/pycharm",
-        "group": "SQL and Python"
+        "group": "Python"
       },
       {
         "id": "mysql/server-workbench",
-        "group": "SQL and Python"
+        "group": "SQL"
       },
       {
         "id": "sqlserver/ssms-sqlserver",
-        "group": "SQL and Python"
+        "group": "SQL"
       },
       {
         "id": "sqlserver/ssms",
-        "group": "SQL and Python"
+        "group": "SQL"
       },
       {
         "id": "r-project/r",
