@@ -157,15 +157,19 @@
         "featuredDescription": "MySQL Workbench connected to a clean MySQL database."
       },
       {
-        "id": "sqlserver/ssms",
-        "group": "SQL Server and SQL Server Management Studio (SSMS)"
-      },
-      {
         "id": "sqlserver/sqlserver-express",
         "group": "SQL Server and SQL Server Management Studio (SSMS)"
       },
       {
+        "id": "sqlserver/ssms",
+        "group": "SQL Server and SQL Server Management Studio (SSMS)"
+      },
+      {
         "id": "mysql/mysql",
+        "group": "MySQL Databases"
+      },
+      {
+        "id": "mysql/workbench",
         "group": "MySQL Databases"
       },
       {
@@ -192,9 +196,9 @@
   {
     "id": "data",
     "name": "Data Science",
-    "description": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
-    "metaDescription": "Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online.",
-    "metaTitle": "Online Data Science - Run Power BI Desktop, SSMS, MySQL, and other Data Science applications online. - Turbo.net",
+    "description": "Run Power BI Desktop, SSMS, MySQL, and other data science applications online.",
+    "metaDescription": "Run Power BI Desktop, SSMS, MySQL, and other data science applications online.",
+    "metaTitle": "Online Data Science - Run Power BI Desktop, SSMS, MySQL, and other data science applications online. - Turbo.net",
     "iconSettings": {
       "backgroundColor": "#999999",
       "padded": true
@@ -202,37 +206,45 @@
     "apps": [
       {
         "id": "powerbi/powerbi",
-        "group": "Interactive Data Visualization BI Tools",
+        "group": "Featured Data Science Applications",
         "featured": true,
         "featuredImageSrc": "/channels/data/powerbi-powerbi-thumbnail.png",
         "featuredDescription": "Power BI Desktop is a business analytics application that provides interactive visualizations."
       },
       {
         "id": "continuum/anaconda3",
-        "group": "Other Data Science Applications"
+        "group": "Featured Data Science Applications",
+        "featured": true,
+        "featuredImageSrc": "/channels/data/continuum-anaconda3-thumbnail.png",
+        "featuredDescription": "Enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing."
       },
       {
         "id": "jetbrains/pycharm",
-        "group": "Other Data Science Applications"
-      },
-	  {
-		"id": "r-project/r",
-		"group": "Other Data Science Applications"
-	  },
-	  {
-		"id": "rstudio/rstudio",
-		"group": "Other Data Science Applications"
-	  },
-      {
-        "id": "sqlserver/ssms",
-        "group": "Other Data Science Applications"
+        "group": "SQL and Python"
       },
       {
         "id": "mysql/server-workbench",
-        "group": "Other Data Science Applications"
+        "group": "SQL and Python"
+      },
+      {
+        "id": "sqlserver/ssms-sqlserver",
+        "group": "SQL and Python"
+      },
+      {
+        "id": "sqlserver/ssms",
+        "group": "SQL and Python"
+      },
+      {
+        "id": "r-project/r",
+        "group": "R"
+      },
+      {
+        "id": "rstudio/rstudio",
+        "group": "R"
       }
     ],
     "categories": ["data"],
+    "preserveOrder": true,
     "relatedChannels": [
       "browsers",
       "ide",
