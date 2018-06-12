@@ -44,14 +44,14 @@
         "id": "microsoft/ie",
         "group": "Latest",
         "featured": true,
-        "featuredImageSrc": "/channels/browsers/ie-thumbnail.png",
+        "featuredImageSrc": "/channels/browsers/ie-thumbnail.jpg",
         "featuredDescription": "Creating entirely new experiences on the web that are fast, beautiful, and perfect for touch."
       },
       {
         "id": "google/chrome",
         "group": "Latest",
         "featured": true,
-        "featuredImageSrc": "/channels/browsers/chrome-thumbnail.png",
+        "featuredImageSrc": "/channels/browsers/chrome-thumbnail.jpg",
         "featuredDescription": "Free web browser developed by Google, enhanced for performance and privacy."
       },
       {
@@ -65,7 +65,7 @@
         "id": "opera/opera",
         "group": "Latest",
         "featured": true,
-        "featuredImageSrc": "/channels/browsers/opera-thumbnail.png",
+        "featuredImageSrc": "/channels/browsers/opera-thumbnail.jpg ",
         "featuredDescription": "A fast and free alternative web browser."
       },
       {
@@ -135,14 +135,14 @@
         "id": "sqlserver/ssms-sqlserver",
         "group": "Featured Online Databases",
         "featured": true,
-        "featuredImageSrc": "/channels/sql/ssms-sqlserver-thumbnail.png",
+        "featuredImageSrc": "/channels/sql/ssms-sqlserver-thumbnail.jpg",
         "featuredDescription": "A SQL Server Management Studio connected to a clean SQL Server 2016 Express database."
       },
       {
         "id": "mysql/server-workbench",
         "group": "Featured Online Databases",
         "featured": true,
-        "featuredImageSrc": "/channels/sql/server-workbench-thumbnail.png",
+        "featuredImageSrc": "/channels/sql/server-workbench-thumbnail.jpg",
         "featuredDescription": "MySQL Workbench connected to a clean MySQL database."
       },
       {
@@ -197,14 +197,14 @@
         "id": "continuum/anaconda3",
         "group": "Featured Data Science Applications",
         "featured": true,
-        "featuredImageSrc": "/channels/data/continuum-anaconda3-thumbnail.png",
+        "featuredImageSrc": "/channels/data/continuum-anaconda3-thumbnail.jpg",
         "featuredDescription": "Enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing."
       },
       {
         "id": "powerbi/powerbi",
         "group": "Featured Data Science Applications",
         "featured": true,
-        "featuredImageSrc": "/channels/data/powerbi-powerbi-thumbnail.png",
+        "featuredImageSrc": "/channels/data/powerbi-powerbi-thumbnail.jpg",
         "featuredDescription": "Power BI Desktop is a business analytics application that provides interactive visualizations."
       },
       {
@@ -256,21 +256,21 @@
         "id": "eclipse/eclipse",
         "group": "Featured IDEs",
         "featured": true,
-        "featuredImageSrc": "/channels/ide/eclipse-thumbnail.png",
+        "featuredImageSrc": "/channels/ide/eclipse-thumbnail.jpg",
         "featuredDescription": "An open source IDE for Java application development."
       },
       {
         "id": "oracle/netbeans",
         "group": "Featured IDEs",
         "featured": true,
-        "featuredImageSrc": "/channels/ide/netbeans-thumbnail.png",
+        "featuredImageSrc": "/channels/ide/netbeans-thumbnail.jpg",
         "featuredDescription": "The official IDE for developing Java desktop, mobile, and online applications."
       },
       {
         "id": "microsoft/vscode",
         "group": "Featured IDEs",
         "featured": true,
-        "featuredImageSrc": "/channels/ide/vscode-thumbnail.png",
+        "featuredImageSrc": "/channels/ide/vscode-thumbnail.jpg",
         "featuredDescription": "A lightweight IDE for building Node.js, JavaScript, and other web applications."
       },
       {
