@@ -521,60 +521,6 @@
     "affiliationText": "Microsoft"
   },
   {
-    "id": "selenium",
-    "name": "Selenium Sandbox",
-    "iconSettings": {
-      "backgroundColor": "#1b7e45",
-      "padded": true
-    },
-    "description": "Online Selenium Grid with unlimited automated testing.",
-    "drm": {
-      "minLevel": 261
-    },
-    "apps": [
-      {
-        "id": "selenium/selenium-grid",
-        "group": "Selenium Grid"
-      },
-      {
-        "id": "selenium/selenium-ide",
-        "group": "Selenium IDEs"
-      },
-      {
-        "id": "selenium/python-ide",
-        "group": "Selenium IDEs"
-      },
-      {
-        "id": "selenium/ie-selenium",
-        "hidden": true
-      },
-      {
-        "id": "selenium/selenium-grid-node",
-        "hidden": true
-      },
-      {
-        "id": "selenium/selenium-server-standalone",
-        "hidden": true
-      },
-      {
-        "id": "selenium/selenium-grid-plugin",
-        "hidden": true
-      },
-      {
-        "id": "selenium/selenium-ie-driver",
-        "hidden": true
-      },
-      {
-        "id": "selenium/selenium-chrome-driver",
-        "hidden": true
-      }
-    ],
-    "categories": ["web"],
-    "twitterShareText": "Run a Selenium Grid instantly online with Turbo Selenium by @turbohq:",
-    "preserveOrder": true,
-    "affiliationText": "Selenium"
-  },
-  {
     "id": "erp",
     "name": "ERP Clients",
     "backgroundColor": "#0A3662",
