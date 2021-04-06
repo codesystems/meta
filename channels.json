@@ -113,8 +113,7 @@
     "isSandbox": false,
     "twitterShareText": "Running IE online with Turbo Browser Sandbox",
     "preserveOrder": true,
-    "affiliationText": "Microsoft, Google, Mozilla or Opera",
-    "videoSrc": "https://www.youtube.com/watch?v=o0FuZGXt0Og&rel=0"
+    "affiliationText": "Microsoft, Google, Mozilla or Opera"
   },
   {
     "id": "sql",
@@ -179,7 +178,6 @@
     "preserveOrder": true,
     "twitterShareText": "Running SQL Server and SSMS online with Turbo SQL Sandbox",
     "affiliationText": "Microsoft",
-    "videoSrc": "https://www.youtube.com/watch?v=NxZrpPxEMhs&rel=0",
     "theme": "dark"
   },
   {
