@@ -32,9 +32,9 @@
       "backgroundColor": "#1b7e45",
       "padded": true
     },
-    "description": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop or tablet.",
-    "metaTitle": "Run IE, Chrome, Firefox, and other browsers online - Cross Browser Testing - Browser Sandbox - Turbo.net",
-    "metaDescription": "Run IE, Chrome, Firefox, and other browsers online, right on your desktop or tablet. Works on PC, Mac, iPad, and Android tablets. Thousands of configurable, ready-to-use apps available instantly.",
+    "description": "Deploy IE, Chrome, Firefox, and other browsers to your enterprise.",
+    "metaTitle": "Deploy IE, Chrome, Firefox, and other browsers to your enterprise - Cross Browser Testing - Browser Sandbox - Turbo.net",
+    "metaDescription": "Deploy IE, Chrome, Firefox, and other browsers to your enterprise. Works on PC, Mac, iPad, and Android tablets. Thousands of configurable, ready-to-use apps available instantly.",
     "drm": {
       "minLevel": 261
     },
@@ -111,7 +111,7 @@
     ],
     "categories": ["web"],
     "isSandbox": false,
-    "twitterShareText": "Running IE online with Turbo Browser Sandbox",
+    "twitterShareText": "Deploy IE, Chrome, Firefox, and other browsers to your enterprise with Turbo Server by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Microsoft, Google, Mozilla or Opera"
   },
@@ -123,23 +123,23 @@
       "backgroundColor": "#A81F1E",
       "padded": true
     },
-    "description": "Run SQL Server, SSMS, MySQL and other databases online.",
-    "metaDescription": "Run SQL Server, SSMS, MySQL, and more databases online.",
-    "metaTitle": "Run SQL Server, SSMS, MySQL, and more databases online - Learn SQL with online database environments - SQL Sandbox - Turbo.net",
+    "description": "Deploy SQL Server, SSMS, MySQL and other databases to your enterprise.",
+    "metaDescription": "Deploy SQL Server, SSMS, MySQL, and more databases to your enterprise.",
+    "metaTitle": "Deploy SQL Server, SSMS, MySQL, and more databases to your enterprise - Learn SQL with containerized database environments - SQL Sandbox - Turbo.net",
     "drm": {
       "minLevel": 261
     },
     "apps": [
       {
         "id": "sqlserver/ssms-sqlserver",
-        "group": "Featured Online Databases",
+        "group": "Featured Databases",
         "featured": true,
         "featuredImageSrc": "/channels/sql/ssms-sqlserver-thumbnail.jpg",
         "featuredDescription": "A SQL Server Management Studio connected to a clean SQL Server 2016 Express database."
       },
       {
         "id": "mysql/server-workbench",
-        "group": "Featured Online Databases",
+        "group": "Featured Databases",
         "featured": true,
         "featuredImageSrc": "/channels/sql/server-workbench-thumbnail.jpg",
         "featuredDescription": "MySQL Workbench connected to a clean MySQL database."
@@ -176,16 +176,16 @@
     ],
     "categories": ["data", "developer"],
     "preserveOrder": true,
-    "twitterShareText": "Running SQL Server and SSMS online with Turbo SQL Sandbox",
+    "twitterShareText": "Deploy SQL Server and SSMS to your enterprise with Turbo Server by @turbohq:",
     "affiliationText": "Microsoft",
     "theme": "dark"
   },
   {
     "id": "data",
     "name": "Data Science",
-    "description": "Run Power BI Desktop, SSMS, MySQL, and other data science applications online.",
-    "metaDescription": "Run Power BI Desktop, SSMS, MySQL, and other data science applications online.",
-    "metaTitle": "Online Data Science - Run Power BI Desktop, SSMS, MySQL, and other data science applications online. - Turbo.net",
+    "description": "Deploy Power BI Desktop, SSMS, MySQL, and other data science applications to your enterprise.",
+    "metaDescription": "Deploy Power BI Desktop, SSMS, MySQL, and other data science applications to your enterprise.",
+    "metaTitle": "Deploy Power BI Desktop, SSMS, MySQL, and other data science applications to your enterprise. - Turbo.net",
     "iconSettings": {
       "backgroundColor": "#999999",
       "padded": true
@@ -237,14 +237,14 @@
       "ide",
       "sql"
     ],
-    "twitterShareText": "Running Power BI Desktop, SSMS, MySQL, and other Data Science applications online on Turbo.net"	
+    "twitterShareText": "Deploy Power BI Desktop, SSMS, MySQL, and other Data Science applications with Turbo Server by @turbohq:"	
   },
   {
     "id": "ide",
-	"name": "Online IDEs",
-    "description": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
-    "metaDescription": "Run Eclipse, VS Code, NetBeans, and other IDEs online.",
-    "metaTitle": "Online IDEs - Run Eclipse, VS Code, NetBeans, and other IDEs online. - Learn to code in online development environments - Turbo.net",
+	  "name": "Online IDEs",
+    "description": "Deploy Eclipse, VS Code, NetBeans, and other IDEs to your enterprise.",
+    "metaDescription": "Deploy Eclipse, VS Code, NetBeans, and other IDEs to your enterprise.",
+    "metaTitle": "Deploy Eclipse, VS Code, NetBeans, and other IDEs to your enterprise - Learn to code in containerized development environments - Turbo.net",
     "iconSettings": {
       "backgroundColor": "#999999",
       "padded": true
@@ -306,7 +306,7 @@
       "browsers",
       "data"
     ],
-    "twitterShareText": "Running Eclipse, VS Code, and NetBeans IDEs online on Turbo.net"
+    "twitterShareText": "Deploy Eclipse, VS Code, and NetBeans IDEs to your enterprise with Turbo Server by @turbohq:"
   },
   {
     "id": "citrix",
@@ -316,7 +316,7 @@
       "backgroundColor": "#336699",
       "padded": true
     },
-    "description": "Run any version of Citrix Receiver online, plus top utilities for Citrix XenApp and XenDesktop administrators.",
+    "description": "Deploy any version of Citrix Receiver plus top utilities for Citrix XenApp and XenDesktop administrators to your enterprise.",
     "drm": {
       "minLevel": 261
     },
@@ -362,7 +362,7 @@
     ],
     "categories": ["productivity"],
     "preserveOrder": true,
-    "twitterShareText": "Run any version of Citrix Receiver instantly with Turbo Citrix Sandbox by @turbohq:",
+    "twitterShareText": "Deploy any version of Citrix Receiver to your enterprise with Turbo Server by @turbohq:",
     "affiliationText": "Citrix"
   },
   {
@@ -406,7 +406,7 @@
     ],
     "categories": ["productivity"],
     "preserveOrder": true,
-    "twitterShareText": "Run popular VMware administration tools instantly online with Turbo VMware Administrator by @turbohq:",
+    "twitterShareText": "Deploy popular VMware administration tools to your enterprise with Turbo Server by @turbohq:",
     "affiliationText": "VMware"
   },
   {
@@ -417,7 +417,7 @@
       "backgroundColor": "#4d94ff",
       "padded": true
     },
-    "description": "Run LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators.",
+    "description": "Deploy LANDESK Management Suite Console, AppSense Management Consoles plus top tools for LANDESK administrators to your enterprise.",
     "drm": {
       "minLevel": 261
     },
@@ -474,7 +474,7 @@
     ],
     "categories": ["productivity"],
     "preserveOrder": true,
-    "twitterShareText": "Run popular LANDESK administration tools instantly online with Turbo LANDESK Administrator by @turbohq:",
+    "twitterShareText": "Deploy popular LANDESK administration tools to your enterprise with Turbo Server by @turbohq:",
     "affiliationText": "LANDESK",
     "partner": true
   },
@@ -514,7 +514,7 @@
       }
     ],
     "categories": ["developer"],
-    "twitterShareText": "Run popular PowerShell development tools instantly online with Turbo PowerShell by @turbohq:",
+    "twitterShareText": "Deploy popular PowerShell development tools to your enterprise with Turbo Server by @turbohq:",
     "preserveOrder": true,
     "affiliationText": "Microsoft"
   },
@@ -522,7 +522,7 @@
     "id": "erp",
     "name": "ERP Clients",
     "backgroundColor": "#0A3662",
-    "description": "Run ERP clients instantly",
+    "description": "Deploy ERP clients to your enterprise",
     "drm": {
       "minLevel": 261
     },
@@ -565,7 +565,7 @@
       }
     ],
     "categories": ["productivity"],
-    "twitterShareText": "Run ERP clients instantly online with Turbo ERP by @turbohq:",
+    "twitterShareText": "Deploy ERP clients to your enterprise with Turbo Server by @turbohq:",
     "affiliationText": "ADP, Callidus, Hewlett Packard, Kronos, or Oracle"
   },
   {
@@ -576,7 +576,7 @@
       "padded": true
     },
     "backgroundColor": "#F3F3F3",
-    "description": "Test drive Micro Focus applications instantly online or run containerized on your desktop.",
+    "description": "Deploy Micro Focus applications to your enterprise or run containerized on your desktop.",
     "drm": {
       "minLevel": 261
     },
@@ -598,7 +598,7 @@
       }
     ],
     "categories": ["productivity"],
-    "twitterShareText": "Test drive Micro Focus applications instantly online with Turbo Micro Focus Sandbox by @turbohq:",
+    "twitterShareText": "Deploy Micro Focus applications to your enterprise with Turbo Server by @turbohq:",
     "affiliationText": "Micro Focus",
     "partner": true
   },
